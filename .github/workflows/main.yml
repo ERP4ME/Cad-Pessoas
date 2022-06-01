@@ -26,7 +26,7 @@ jobs:
         with:
           path: cypress/videos
 
-   cypress-tests-exibir-Iten:
+   cypress-tests-cadastro:
     runs-on: ubuntu-latest
     container: cypress/browsers:node12.18.3-chrome87-ff82
     steps:
@@ -36,7 +36,7 @@ jobs:
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
         with:
-          command: npm run test:exibir-Iten
+          command: npm run test:cadastro
 
       - name: Upload a Build Artifact
         if: always()
