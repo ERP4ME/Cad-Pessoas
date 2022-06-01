@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  
+
   cypress-tests-cadastroTipoPessoa:
     runs-on: ubuntu-latest
     container: cypress/browsers:node12.18.3-chrome87-ff82
