@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run",
+    "test:cadastroTipoPessoa": "cypress run --spec cypress/integration/cad-pessoa-cadastro.-TipoPessoa.spec.js",
+    "test:cadastro": "cypress run --spec cypress/integration/cad-pessoa-cadastro.spec.js",
+    "test:exibir-Itens": "cypress run --spec cypress/integration/cad-pessoa-ExibirItens.spec.js",
+    "test:filtroAvancado": "cypress run --spec cypress/integration/cad-pessoa-FiltroAvancado.spec.js",
+    "test:ordenacao": "cypress run --spec cypress/integration/cad-pessoa-ordenacao.spec.js",
+    "test:exportarArquivos": "cypress run --spec cypress/integration/cad-pessoa-ExportarArquivos.spec.js",
+    "cy:open": "cypress open"
   },
   "keywords": [],
   "author": "",
