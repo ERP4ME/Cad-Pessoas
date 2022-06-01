@@ -1,0 +1,19 @@
+
+  
+    {
+        "qtdItens": 32,
+        "ehCliente": false,
+        "ehFornecedor": true,
+        "ehFuncionario": false,
+        "ehSocio": false,
+        "ehTransportadora": false,
+        "idPessoa": 183,
+        "nome": "Automatizado",
+        "status": 1,
+        "idUnico": 196,
+        "idUnicoFornecedor": 196,
+        "tpPessoa": 2,
+        "ultimaPagina": false
+    }
+    
+   

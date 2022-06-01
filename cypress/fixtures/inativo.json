@@ -1,0 +1,22 @@
+
+
+
+    {
+        "celular": "21994048804",
+        "qtdItens": 1,
+        "cpfCnpj": "955.191.611-51",
+        "ehCliente": true,
+        "ehFornecedor": false,
+        "ehFuncionario": true,
+        "ehSocio": false,
+        "ehTransportadora": false,
+        "email": "rodolphodealmeida@hotmail.com",
+        "idPessoa": 11,
+        "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+        "status": 0,
+        "idUnico": 14,
+        "idUnicoCliente": 14,
+        "idUnicoFuncionario": 14,
+        "tpPessoa": 0,
+        "ultimaPagina": true
+    }

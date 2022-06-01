@@ -1,0 +1,87 @@
+[
+    {
+       "tipoPessoa":"Cliente",
+       "TipoPessoacontribuinte":"Contribuinte de ICMS"
+    },
+    {
+        "tipoPessoa":"Cliente",
+        "TipoPessoacontribuinte":"Contribuinte isento"
+    },
+    {
+        "tipoPessoa":"Cliente",
+        "TipoPessoacontribuinte":"Não contribuinte"
+    },
+
+
+    
+    {
+        "tipoPessoa":"Funcionário",
+        "TipoPessoacontribuinte":"Contribuinte de ICMS"
+     },
+     {
+         "tipoPessoa":"Funcionário",
+         "TipoPessoacontribuinte":"Contribuinte isento"
+     },
+     {
+         "tipoPessoa":"Funcionário",
+         "TipoPessoacontribuinte":"Não contribuinte"
+     },
+
+
+
+
+       
+    {
+        "tipoPessoa":"Fornecedor",
+        "TipoPessoacontribuinte":"Contribuinte de ICMS"
+     },
+     {
+         "tipoPessoa":"Fornecedor",
+         "TipoPessoacontribuinte":"Contribuinte isento"
+     },
+     {
+         "tipoPessoa":"Fornecedor",
+         "TipoPessoacontribuinte":"Não contribuinte"
+     },
+
+
+
+
+          
+    {
+        "tipoPessoa":"Sócio",
+        "TipoPessoacontribuinte":"Contribuinte de ICMS"
+     },
+     {
+         "tipoPessoa":"Sócio",
+         "TipoPessoacontribuinte":"Contribuinte isento"
+     },
+     {
+         "tipoPessoa":"Sócio",
+         "TipoPessoacontribuinte":"Não contribuinte"
+     },
+
+
+
+
+     {
+        "tipoPessoa":"Transportadora",
+        "TipoPessoacontribuinte":"Contribuinte de ICMS"
+     },
+     {
+         "tipoPessoa":"Transportadora",
+         "TipoPessoacontribuinte":"Contribuinte isento"
+     },
+     {
+         "tipoPessoa":"Transportadora",
+         "TipoPessoacontribuinte":"Não contribuinte"
+     }
+
+
+    
+
+
+     
+
+   
+ ]

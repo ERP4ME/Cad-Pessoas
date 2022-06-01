@@ -1,0 +1,21 @@
+{
+   "nome":"Automatizado",
+   "nomeFantasia":"Automatizado",
+   "pessoaContato":"pedro",
+   "telefone":"(21)  9544-5365",
+   "cpfCnpj":"72.889.414/0001-24",
+   "cpfCnpjInv":"72.889.414/0001",
+   "cpfCnpjExistente":"127.610.717-00",
+   "inscricaoEstadual":"24836746734",
+   "dataNascimento":"2000-01-01",
+   "endereco":{
+      "cep":"25976440",
+      "numero":"4",
+      "cidade":"Teresópolis"
+   },
+   "ehContribuinteIcms":{
+      "ContribuinteICMS":"Contribuinte de ICMS",
+      "ContribuinteIsento":"Contribuinte de isento",
+      "NãoContribuinte":"Não contribuinte"
+   }
+}

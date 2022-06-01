@@ -1,0 +1,37 @@
+[
+    {
+        "qtdItens": 2,
+        "ehCliente": false,
+        "ehFornecedor": false,
+        "ehFuncionario": false,
+        "ehSocio": false,
+        "ehTransportadora": true,
+        "idPessoa": 33,
+        "nome": "Pessoa do tipo (Transportadora)",
+        "status": 1,
+        "idUnico": 47,
+        "idUnicoTransportadora": 47,
+        "tpPessoa": 4,
+        "ultimaPagina": true
+    },
+    {
+        "qtdItens": 2,
+        "cpfCnpj": "073.794.100-67",
+        "ehCliente": true,
+        "ehFornecedor": true,
+        "ehFuncionario": true,
+        "ehSocio": true,
+        "ehTransportadora": true,
+        "idPessoa": 20,
+        "nome": "Pessoa - Teste automatizado",
+        "status": 1,
+        "idUnico": 23,
+        "idUnicoCliente": 23,
+        "idUnicoFornecedor": 38,
+        "idUnicoFuncionario": 39,
+        "idUnicoSocio": 40,
+        "idUnicoTransportadora": 41,
+        "tpPessoa": 0,
+        "ultimaPagina": true
+    }
+]

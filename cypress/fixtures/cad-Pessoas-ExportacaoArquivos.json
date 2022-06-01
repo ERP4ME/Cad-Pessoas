@@ -1,0 +1,34 @@
+[
+    {
+        "tipoPessoa": "Clientes",
+        "TipoPessoaValue": "object:1708"
+    },
+
+    {
+        "tipoPessoa": "Funcionários",
+        "TipoPessoaValue": "object:1709"
+    },
+
+    {
+        "tipoPessoa": "Fornecedores",
+        "TipoPessoaValue": "object:1710"
+    },
+
+    {
+        "tipoPessoa": "Sócios",
+        "TipoPessoaValue": "object:1711"
+    },
+
+    {
+        "tipoPessoa": "Todos",
+        "TipoPessoaValue": "object:1712"
+    },
+
+    {
+        "tipoPessoa": "Transportadoras",
+        "TipoPessoaValue": "object:1713"
+    }
+
+   
+   
+]
