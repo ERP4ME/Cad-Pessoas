@@ -38,7 +38,7 @@ jobs:
         with:
           path: cypress/videos
           
-  cypress-tests-enquadramento-601-999:
+  cypress-tests-exibir-Itens:
    needs : cypress-tests-exibir-Itens
    runs-on: ubuntu-latest
    container: cypress/browsers:node12.18.3-chrome87-ff82
@@ -57,7 +57,7 @@ jobs:
         with:
           path: cypress/videos
 
-  cypress-tests-enquadramento-301-320:
+  cypress-tests-filtroAvancado:
    needs : cypress-tests-filtroAvancado
    runs-on: ubuntu-latest
    container: cypress/browsers:node12.18.3-chrome87-ff82
@@ -76,7 +76,7 @@ jobs:
         with:
           path: cypress/videos
 
-  cypress-tests-enquadramento-321-340:
+  cypress-tests-ordenacao:
    needs : cypress-tests-ordenacao
    runs-on: ubuntu-latest
    container: cypress/browsers:node12.18.3-chrome87-ff82
@@ -95,7 +95,7 @@ jobs:
         with:
           path: cypress/videos
 
-  cypress-tests-enquadramento-341-351:
+  cypress-tests-exportarArquivos:
    needs : cypress-tests-exportarArquivos
    runs-on: ubuntu-latest
    container: cypress/browsers:node12.18.3-chrome87-ff82
