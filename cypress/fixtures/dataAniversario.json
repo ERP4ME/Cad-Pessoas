@@ -1,0 +1,18 @@
+[
+    {
+        "qtdItens": 1,
+        "ehCliente": true,
+        "ehFornecedor": false,
+        "ehFuncionario": false,
+        "ehSocio": false,
+        "ehTransportadora": false,
+        "idPessoa": 29,
+        "nome": "Pessoa do tipo (Cliente)",
+        "status": 1,
+        "idUnico": 43,
+        "idUnicoCliente": 43,
+        "dataNascimento": "2001-01-01T12:00:00Z",
+        "tpPessoa": 0,
+        "ultimaPagina": true
+    }
+]

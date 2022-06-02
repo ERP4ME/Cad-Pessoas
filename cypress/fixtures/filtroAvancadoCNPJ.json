@@ -1,0 +1,20 @@
+[
+    {
+        "qtdItens": 1,
+        "cpfCnpj": "14151066000197",
+        "ehCliente": true,
+        "ehFornecedor": true,
+        "ehFuncionario": false,
+        "ehSocio": false,
+        "ehTransportadora": false,
+        "idPessoa": 6,
+        "nome": "Administradora Ltda",
+        "status": 1,
+        "idUnico": 9,
+        "idUnicoCliente": 9,
+        "idUnicoFornecedor": 8,
+        "nomeFantasia": "Administradora Ltda _",
+        "tpPessoa": 0,
+        "ultimaPagina": true
+    }
+]

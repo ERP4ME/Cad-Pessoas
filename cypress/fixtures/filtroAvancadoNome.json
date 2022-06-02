@@ -1,0 +1,22 @@
+[
+    {
+        "qtdItens": 1,
+        "cpfCnpj": "073.794.100-67",
+        "ehCliente": true,
+        "ehFornecedor": true,
+        "ehFuncionario": true,
+        "ehSocio": true,
+        "ehTransportadora": true,
+        "idPessoa": 20,
+        "nome": "Pessoa - Teste automatizado",
+        "status": 1,
+        "idUnico": 23,
+        "idUnicoCliente": 23,
+        "idUnicoFornecedor": 38,
+        "idUnicoFuncionario": 39,
+        "idUnicoSocio": 40,
+        "idUnicoTransportadora": 41,
+        "tpPessoa": 0,
+        "ultimaPagina": true
+    }
+]
