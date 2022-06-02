@@ -17,9 +17,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
     });
 
     it('Deletar lixo antes de rodar o teste', () => {
-        
-       
-      
 
     })
 

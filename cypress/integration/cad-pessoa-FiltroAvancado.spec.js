@@ -201,7 +201,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
 
     })
 
-    it('Testar Filtro por CPF', function () {
+    it.only('Testar Filtro por CPF', function () {
         cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=cpfCnpj&valor=07379410067',
             { fixture: 'filtroAvancadoCPF.json' }
         ).as('waitFiltro')
