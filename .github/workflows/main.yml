@@ -17,6 +17,9 @@ jobs:
 
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
         with:
           command: npm run test:cadastroTipoPessoa
 
@@ -35,6 +38,9 @@ jobs:
 
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
         with:
           command: npm run test:cadastro
 
@@ -53,6 +59,9 @@ jobs:
 
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
         with:
           command: npm run test:ExibirItens
 
@@ -71,6 +80,9 @@ jobs:
 
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
         with:
           command: npm run test:FiltroAvancao
 
@@ -89,6 +101,9 @@ jobs:
 
       - name: Run end-to-end tests on tablet viewport 🧪
         uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
         with:
           command: npm run test:Ordenacao
 
