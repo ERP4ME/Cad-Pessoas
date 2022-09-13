@@ -90,7 +90,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.get('#koopon-pessoa-modal-filtro-pessoas-checkbox-tipo-pessoa-funcionario').check({ force: true })
     cy.btnFiltroAvancado()
     cy.nomePessoa()
-      .should('have.length', '5')
+      .should('have.length', '6')
 
   })
 
