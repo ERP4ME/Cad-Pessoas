@@ -48,8 +48,8 @@ Cypress.Commands.add('criarPessoas', () => {
   cy.get('#koopon-pessoa-especifica-select-tipos-pessoa-pessoa').select('Cliente', { force: true })
   cy.get('#koopon-pessoa-especifica-select-tipos-contribuinte-pessoa').select(pessoa.ehContribuinteIcms.NãoContribuinte, { force: true })
   cy.get('#koopon-pessoa-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 })
-  cy.get('#koopon-formulario-comum-endereco-input-cep').type(pessoa.endereco.cep, { delay: 0 })
-  cy.get('#koopon-formulario-comum-endereco-input-numero').type(pessoa.endereco.numero), { delay: 0 }
+  cy.get('#koopon-pessoa-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { delay: 0 })
+  cy.get('#koopon-pessoa-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero), { delay: 0 }
   cy.btnGravar()
   cy.get('[data-alt-titulo="Nome"]')
     .contains('Automatizado')
@@ -113,12 +113,13 @@ Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuint
   cy.get('#koopon-pessoa-especifica-input-nome-pessoa').type(pessoa.nome, { delay: 0 })
   cy.get('#koopon-pessoa-especifica-select-tipos-contribuinte-pessoa').select(tipoContribuinte, { force: true })
   cy.get('#koopon-pessoa-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 })
-  cy.get('#koopon-formulario-comum-endereco-input-cep').type(pessoa.endereco.cep, { delay: 0 })
-  cy.get('#koopon-formulario-comum-endereco-input-numero').type(pessoa.endereco.numero, { delay: 0 })
+ // cy.get('#koopon-formulario-comum-endereco-input-cep').type(pessoa.endereco.cep, { delay: 0 })
+  cy.get('#koopon-pessoa-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { delay: 0 })
+ // cy.get('#koopon-formulario-comum-endereco-input-numero').type(pessoa.endereco.numero, { delay: 0 })
+  cy.get('#koopon-pessoa-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { delay: 0 })
   cy.btnGravar()
 
 })
-
 
 
 Cypress.Commands.add('PessoaNome', () => {
