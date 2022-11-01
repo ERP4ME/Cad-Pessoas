@@ -70,14 +70,13 @@ Cypress.Commands.add('AcessarSistema', () => {
 
 Cypress.Commands.add('AcessarSistema', () => {
   cy.visit('/')
-  
-  cy.get(':nth-child(2) > .alt-lista-item-container')
-  .click()
-  cy.intercept('GET', '/passaporte-rest-api/rest/produtos').as("AguardarPagina")
-  cy.wait("@AguardarPagina").its("response.statusCode").should("be.equal", 200);
-  cy.contains('Painel Administrativo')
-  .should('be.visible')
-  
+  cy.get(':nth-child(3) > .alt-lista-item-container')
+    .should('be.visible')
+    .click()
+  cy.intercept('GET', '/koopon-core-rest-api/empresa/configuracoes/emissao/nota').as('AguardarPagina')
+  cy.wait('@AguardarPagina').its('response.statusCode').should('be.equal', 200)
+  cy.get('.alt-titulo-view-container li b')
+    .should('be.visible')
 
 })
 
