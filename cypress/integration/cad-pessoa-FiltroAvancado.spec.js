@@ -140,7 +140,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
   })
 
 
-  it.only('Testar Filtro data de Aniversario', function () {
+  it('Testar Filtro data de Aniversario', function () {
     const aniversario = require('../fixtures/dataAniversario.json')
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=dtNascimentoIni,dtNascimentoFim&valor=01-01,01-01',
       { fixture: 'dataAniversario.json' }
