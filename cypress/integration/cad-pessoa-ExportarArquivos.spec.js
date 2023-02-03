@@ -14,7 +14,7 @@ describe('Cadastro de Pessoas - Exportação de PDF e CSV pelo tipo pessoas ', (
 
   })
 
-  it.skip('Exportar PDF para o tipo pessoa Transportadora, sem Transportadora cadastradada', () => {
+  it.skip('Exportar PDF para o tipo pessoa Transportadora, sem Transportadora cadastradada ', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1',
       { fixture: 'Sem-Transportadora' }
 
