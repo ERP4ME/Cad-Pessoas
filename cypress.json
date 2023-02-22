@@ -1,5 +1,5 @@
 {  "$schema": "https://on.cypress.io/cypress.schema.json",
-    "viewportHeight": 607,
+    "viewportHeight": 1000,
     "viewportWidth": 1400,
     "baseUrlProd": "https://erpforme.alterdata.com.br/",
     "baseUrl": "https://erpforme-hml.alterdata.com.br/",
@@ -10,7 +10,9 @@
         
     },
 
-    "experimentalSessionAndOrigin" : true 
+    "experimentalSessionAndOrigin" : true ,
+    "experimentalMemoryManagement" : false
+   
     
 }
 

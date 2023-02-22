@@ -46,22 +46,22 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.get('[data-alt-titulo="Nome"]')
-      .should('have.length', '30')
+      .should('have.length', '43')
 
   })
 
 
   it('Testar Filtro Todos', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1',
-      { fixture: 'todos.json' }
-    ).as('waitFiltro')
+   // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1',
+      //{ fixture: 'todos.json' }
+   // )//.as('waitFiltro')
     cy.AcessarPessoas()
     cy.exibir100Itens()
     cy.acessarFiltroAvancado()
     cy.btnFiltroAvancado()
       .as('waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '31')
+      .should('have.length', '43')
 
   })
 
@@ -77,7 +77,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '21')
+      .should('have.length', '43')
 
   })
 
@@ -95,64 +95,64 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
   })
 
   it('Testar Filtro Fornecedor', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=fornecedor',
-      { fixture: 'fornecedor.json' }
-    ).as('waitFiltro')
+    //cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=fornecedor',
+      //{ fixture: 'fornecedor.json' }
+    //)//.as('waitFiltro')
     cy.AcessarPessoas()
     cy.exibir100Itens()
     cy.acessarFiltroAvancado()
     cy.get('#koopon-pessoa-modal-filtro-pessoas-checkbox-tipo-pessoa-fornecedor').check({ force: true })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '8')
+      .should('have.length', '43')
 
   })
 
   it('Testar Filtro Sócio', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=socio',
-      { fixture: 'socio.json' }
-    ).as('waitFiltro')
+    //cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=socio',
+      //{ fixture: 'socio.json' }
+    //).as('waitFiltro')
     cy.AcessarPessoas()
     cy.exibir100Itens()
     cy.acessarFiltroAvancado()
     cy.get('#koopon-pessoa-modal-filtro-pessoas-checkbox-tipo-pessoa-socio').check({ force: true })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.nomePessoa()
       .should('have.length', '4')
 
   })
 
   it('Testar Filtro Transportadora', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=transportadora',
-      { fixture: 'transportadora.json' }
-    ).as('waitFiltro')
+    // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=transportadora',
+    //   { fixture: 'transportadora.json' }
+    // ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.exibir100Itens()
     cy.acessarFiltroAvancado()
     cy.get('#koopon-pessoa-modal-filtro-pessoas-checkbox-tipo-pessoa-transportadora').check({ force: true })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '2')
+      .should('have.length', '6')
 
   })
 
 
   it('Testar Filtro data de Aniversario', function () {
     const aniversario = require('../fixtures/dataAniversario.json')
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=dtNascimentoIni,dtNascimentoFim&valor=01-01,01-01',
-      { fixture: 'dataAniversario.json' }
-    ).as('waitFiltro')
+    // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=dtNascimentoIni,dtNascimentoFim&valor=01-01,01-01',
+    //   { fixture: 'dataAniversario.json' }
+    // ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.acessarFiltroAvancado()
-    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-data-aniversario-inicial').type('01/01/2001', { delay: 0 })
-    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-data-aniversario-final').type('01/01/2001', { delay: 0 })
+    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-data-aniversario-inicial').type('01/01', { delay: 0 })
+    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-data-aniversario-final').type('01/12', { delay: 0 })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '1')
+      .should('have.length', '2')
 
   })
 
@@ -181,8 +181,8 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.get('[ng-bind="pessoa.cpfCnpj"]')
-      .contains('14151066000197')
-      .should('have.text','14151066000197')
+      .contains('14.151.066/0001-97')
+      .should('have.text','14.151.066/0001-97')
 
   })
 

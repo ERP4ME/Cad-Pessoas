@@ -1,1506 +1,2029 @@
-[
-    {
-        "qtdItens": 4124,
-        "cpfCnpj": "50.915.011/0001-70",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 414,
-        "nome": "01 - - - forne",
-        "status": 1,
-        "idUnico": 36,
-        "idUnicoCliente": 36,
-        "idUnicoFornecedor": 36,
-        "nomeFantasia": "01 - - - forne",
-        "dataNascimento": "1992-08-12T12:00:00Z",
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 424,
-        "nome": "1",
-        "status": 1,
-        "idUnico": 45,
-        "idUnicoCliente": 45,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 434,
-        "nome": "10",
-        "status": 1,
-        "idUnico": 55,
-        "idUnicoCliente": 55,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 536,
-        "nome": "100",
-        "status": 1,
-        "idUnico": 156,
-        "idUnicoCliente": 156,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1609,
-        "nome": "1000",
-        "status": 1,
-        "idUnico": 1210,
-        "idUnicoCliente": 1210,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1610,
-        "nome": "1001",
-        "status": 1,
-        "idUnico": 1212,
-        "idUnicoCliente": 1212,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1611,
-        "nome": "1001",
-        "status": 1,
-        "idUnico": 1211,
-        "idUnicoCliente": 1211,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1612,
-        "nome": "1002",
-        "status": 1,
-        "idUnico": 1213,
-        "idUnicoCliente": 1213,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1613,
-        "nome": "1003",
-        "status": 1,
-        "idUnico": 1214,
-        "idUnicoCliente": 1214,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1614,
-        "nome": "1004",
-        "status": 1,
-        "idUnico": 1215,
-        "idUnicoCliente": 1215,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1615,
-        "nome": "1005",
-        "status": 1,
-        "idUnico": 1216,
-        "idUnicoCliente": 1216,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1616,
-        "nome": "1006",
-        "status": 1,
-        "idUnico": 1217,
-        "idUnicoCliente": 1217,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1617,
-        "nome": "1007",
-        "status": 1,
-        "idUnico": 1218,
-        "idUnicoCliente": 1218,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1619,
-        "nome": "1008",
-        "status": 1,
-        "idUnico": 1220,
-        "idUnicoCliente": 1220,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1618,
-        "nome": "1008",
-        "status": 1,
-        "idUnico": 1219,
-        "idUnicoCliente": 1219,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1620,
-        "nome": "1009",
-        "status": 1,
-        "idUnico": 1221,
-        "idUnicoCliente": 1221,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 537,
-        "nome": "101",
-        "status": 1,
-        "idUnico": 157,
-        "idUnicoCliente": 157,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1622,
-        "nome": "1010",
-        "status": 1,
-        "idUnico": 1223,
-        "idUnicoCliente": 1223,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1623,
-        "nome": "1011",
-        "status": 1,
-        "idUnico": 1224,
-        "idUnicoCliente": 1224,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1624,
-        "nome": "1012",
-        "status": 1,
-        "idUnico": 1225,
-        "idUnicoCliente": 1225,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1625,
-        "nome": "1013",
-        "status": 1,
-        "idUnico": 1226,
-        "idUnicoCliente": 1226,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1626,
-        "nome": "1014",
-        "status": 1,
-        "idUnico": 1227,
-        "idUnicoCliente": 1227,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1627,
-        "nome": "1015",
-        "status": 1,
-        "idUnico": 1228,
-        "idUnicoCliente": 1228,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1628,
-        "nome": "1016",
-        "status": 1,
-        "idUnico": 1229,
-        "idUnicoCliente": 1229,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1629,
-        "nome": "1016",
-        "status": 1,
-        "idUnico": 1230,
-        "idUnicoCliente": 1230,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1635,
-        "nome": "1017",
-        "status": 1,
-        "idUnico": 1234,
-        "idUnicoCliente": 1234,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1636,
-        "nome": "1018",
-        "status": 1,
-        "idUnico": 1235,
-        "idUnicoCliente": 1235,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1637,
-        "nome": "1019",
-        "status": 1,
-        "idUnico": 1236,
-        "idUnicoCliente": 1236,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 539,
-        "nome": "102",
-        "status": 1,
-        "idUnico": 159,
-        "idUnicoCliente": 159,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 538,
-        "nome": "102",
-        "status": 1,
-        "idUnico": 158,
-        "idUnicoCliente": 158,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1638,
-        "nome": "1020",
-        "status": 1,
-        "idUnico": 1237,
-        "idUnicoCliente": 1237,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1639,
-        "nome": "1020",
-        "status": 1,
-        "idUnico": 1238,
-        "idUnicoCliente": 1238,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1640,
-        "nome": "1021",
-        "status": 1,
-        "idUnico": 1239,
-        "idUnicoCliente": 1239,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1641,
-        "nome": "1022",
-        "status": 1,
-        "idUnico": 1240,
-        "idUnicoCliente": 1240,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1642,
-        "nome": "1023",
-        "status": 1,
-        "idUnico": 1241,
-        "idUnicoCliente": 1241,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1643,
-        "nome": "1024",
-        "status": 1,
-        "idUnico": 1242,
-        "idUnicoCliente": 1242,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1645,
-        "nome": "1025",
-        "status": 1,
-        "idUnico": 1244,
-        "idUnicoCliente": 1244,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1644,
-        "nome": "1025",
-        "status": 1,
-        "idUnico": 1243,
-        "idUnicoCliente": 1243,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1646,
-        "nome": "1026",
-        "status": 1,
-        "idUnico": 1245,
-        "idUnicoCliente": 1245,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1647,
-        "nome": "1027",
-        "status": 1,
-        "idUnico": 1246,
-        "idUnicoCliente": 1246,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1648,
-        "nome": "1028",
-        "status": 1,
-        "idUnico": 1247,
-        "idUnicoCliente": 1247,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1649,
-        "nome": "1029",
-        "status": 1,
-        "idUnico": 1248,
-        "idUnicoCliente": 1248,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 540,
-        "nome": "103",
-        "status": 1,
-        "idUnico": 160,
-        "idUnicoCliente": 160,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1650,
-        "nome": "1030",
-        "status": 1,
-        "idUnico": 1249,
-        "idUnicoCliente": 1249,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1651,
-        "nome": "1031",
-        "status": 1,
-        "idUnico": 1250,
-        "idUnicoCliente": 1250,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1652,
-        "nome": "1032",
-        "status": 1,
-        "idUnico": 1251,
-        "idUnicoCliente": 1251,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1654,
-        "nome": "1033",
-        "status": 1,
-        "idUnico": 1253,
-        "idUnicoCliente": 1253,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1653,
-        "nome": "1033",
-        "status": 1,
-        "idUnico": 1252,
-        "idUnicoCliente": 1252,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1655,
-        "nome": "1034",
-        "status": 1,
-        "idUnico": 1254,
-        "idUnicoCliente": 1254,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1656,
-        "nome": "1035",
-        "status": 1,
-        "idUnico": 1255,
-        "idUnicoCliente": 1255,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1657,
-        "nome": "1037",
-        "status": 1,
-        "idUnico": 1256,
-        "idUnicoCliente": 1256,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1659,
-        "nome": "1038",
-        "status": 1,
-        "idUnico": 1258,
-        "idUnicoCliente": 1258,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1658,
-        "nome": "1038",
-        "status": 1,
-        "idUnico": 1257,
-        "idUnicoCliente": 1257,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1660,
-        "nome": "1039",
-        "status": 1,
-        "idUnico": 1259,
-        "idUnicoCliente": 1259,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 542,
-        "nome": "104",
-        "status": 1,
-        "idUnico": 162,
-        "idUnicoCliente": 162,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 541,
-        "nome": "104",
-        "status": 1,
-        "idUnico": 161,
-        "idUnicoCliente": 161,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1661,
-        "nome": "1040",
-        "status": 1,
-        "idUnico": 1260,
-        "idUnicoCliente": 1260,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1662,
-        "nome": "1041",
-        "status": 1,
-        "idUnico": 1261,
-        "idUnicoCliente": 1261,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1663,
-        "nome": "1042",
-        "status": 1,
-        "idUnico": 1262,
-        "idUnicoCliente": 1262,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1664,
-        "nome": "1043",
-        "status": 1,
-        "idUnico": 1263,
-        "idUnicoCliente": 1263,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1665,
-        "nome": "1044",
-        "status": 1,
-        "idUnico": 1264,
-        "idUnicoCliente": 1264,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1666,
-        "nome": "1046",
-        "status": 1,
-        "idUnico": 1265,
-        "idUnicoCliente": 1265,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1667,
-        "nome": "1047",
-        "status": 1,
-        "idUnico": 1266,
-        "idUnicoCliente": 1266,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1668,
-        "nome": "1047",
-        "status": 1,
-        "idUnico": 1267,
-        "idUnicoCliente": 1267,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1669,
-        "nome": "1049",
-        "status": 1,
-        "idUnico": 1268,
-        "idUnicoCliente": 1268,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 543,
-        "nome": "105",
-        "status": 1,
-        "idUnico": 163,
-        "idUnicoCliente": 163,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1670,
-        "nome": "1050",
-        "status": 1,
-        "idUnico": 1269,
-        "idUnicoCliente": 1269,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1671,
-        "nome": "1053",
-        "status": 1,
-        "idUnico": 1270,
-        "idUnicoCliente": 1270,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 544,
-        "nome": "106",
-        "status": 1,
-        "idUnico": 164,
-        "idUnicoCliente": 164,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1673,
-        "nome": "1060",
-        "status": 1,
-        "idUnico": 1272,
-        "idUnicoCliente": 1272,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1672,
-        "nome": "1060",
-        "status": 1,
-        "idUnico": 1271,
-        "idUnicoCliente": 1271,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1674,
-        "nome": "1061",
-        "status": 1,
-        "idUnico": 1273,
-        "idUnicoCliente": 1273,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1675,
-        "nome": "1062",
-        "status": 1,
-        "idUnico": 1274,
-        "idUnicoCliente": 1274,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1676,
-        "nome": "1063",
-        "status": 1,
-        "idUnico": 1275,
-        "idUnicoCliente": 1275,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1677,
-        "nome": "1064",
-        "status": 1,
-        "idUnico": 1276,
-        "idUnicoCliente": 1276,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1678,
-        "nome": "1065",
-        "status": 1,
-        "idUnico": 1277,
-        "idUnicoCliente": 1277,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1679,
-        "nome": "1066",
-        "status": 1,
-        "idUnico": 1278,
-        "idUnicoCliente": 1278,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1680,
-        "nome": "1067",
-        "status": 1,
-        "idUnico": 1279,
-        "idUnicoCliente": 1279,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 545,
-        "nome": "107",
-        "status": 1,
-        "idUnico": 165,
-        "idUnicoCliente": 165,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1681,
-        "nome": "1070",
-        "status": 1,
-        "idUnico": 1281,
-        "idUnicoCliente": 1281,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1684,
-        "nome": "1070",
-        "status": 1,
-        "idUnico": 1283,
-        "idUnicoCliente": 1283,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1682,
-        "nome": "1071",
-        "status": 1,
-        "idUnico": 1280,
-        "idUnicoCliente": 1280,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1685,
-        "nome": "1073",
-        "status": 1,
-        "idUnico": 1284,
-        "idUnicoCliente": 1284,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1683,
-        "nome": "1073",
-        "status": 1,
-        "idUnico": 1282,
-        "idUnicoCliente": 1282,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1686,
-        "nome": "1075",
-        "status": 1,
-        "idUnico": 1285,
-        "idUnicoCliente": 1285,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1687,
-        "nome": "1075",
-        "status": 1,
-        "idUnico": 1286,
-        "idUnicoCliente": 1286,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1688,
-        "nome": "1076",
-        "status": 1,
-        "idUnico": 1287,
-        "idUnicoCliente": 1287,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1689,
-        "nome": "1078",
-        "status": 1,
-        "idUnico": 1288,
-        "idUnicoCliente": 1288,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 546,
-        "nome": "108",
-        "status": 1,
-        "idUnico": 166,
-        "idUnicoCliente": 166,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1691,
-        "nome": "1082",
-        "status": 1,
-        "idUnico": 1290,
-        "idUnicoCliente": 1290,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1690,
-        "nome": "1082",
-        "status": 1,
-        "idUnico": 1289,
-        "idUnicoCliente": 1289,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1692,
-        "nome": "1083",
-        "status": 1,
-        "idUnico": 1291,
-        "idUnicoCliente": 1291,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1693,
-        "nome": "1085",
-        "status": 1,
-        "idUnico": 1292,
-        "idUnicoCliente": 1292,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1694,
-        "nome": "1089",
-        "status": 1,
-        "idUnico": 1293,
-        "idUnicoCliente": 1293,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 547,
-        "nome": "109",
-        "status": 1,
-        "idUnico": 167,
-        "idUnicoCliente": 167,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1695,
-        "nome": "1091",
-        "status": 1,
-        "idUnico": 1294,
-        "idUnicoCliente": 1294,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1696,
-        "nome": "1092",
-        "status": 1,
-        "idUnico": 1295,
-        "idUnicoCliente": 1295,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1697,
-        "nome": "1092",
-        "status": 1,
-        "idUnico": 1296,
-        "idUnicoCliente": 1296,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1698,
-        "nome": "1093",
-        "status": 1,
-        "idUnico": 1297,
-        "idUnicoCliente": 1297,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 4124,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 1699,
-        "nome": "1094",
-        "status": 1,
-        "idUnico": 1298,
-        "idUnicoCliente": 1298,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 186,
+            "idPessoaApi": "ac80bfd7-87a3-4880-a9f9-8c7d2177600d",
+            "nome": "3R COMERCIO E LOGISTICA LTDA",
+            "nomeFantasia": "Alterdatano da Matriz",
+            "cpfCnpj": "23669642773",
+            "telefones": [
+                {
+                    "idTelefoneApi": "aa17d54d-5b4c-46d4-884f-c7b7434dd96d",
+                    "numero": "(21) 9544-5365",
+                    "tipo": 1,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "e6b35be1-6ec0-4270-83da-60d51839eeb0",
+                    "numero": "(21) 9544-5365",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "d5beda02-60af-4664-ae7a-fb6b3ea76401",
+                "email": "welington.dsn.shop@alterdata.com.br"
+            },
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 208,
+            "idPessoaApi": "c403356c-1b6c-490e-b93c-c40f153c42ed",
+            "nome": "82.933.160/0001-58",
+            "nomeFantasia": "82.933.160/0001-58",
+            "cpfCnpj": "82933160000158",
+            "telefones": [
+                {
+                    "idTelefoneApi": "ced7d492-fe4b-400e-ac1a-55e09e913e2a",
+                    "numero": "(21) 9746-3656",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "e395e20a-cc68-41e4-8320-56509d3a6b55",
+                "email": "wgt_tere@hotmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 209,
+            "idPessoaApi": "b1dd53d6-f56b-4b28-a1e2-dc4a42b8d11a",
+            "nome": "86.104.991/0001-78",
+            "nomeFantasia": "86.104.991/0001-78",
+            "cpfCnpj": "86104991000178",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 202,
+            "idPessoaApi": "6cce88d1-6076-471c-90fd-0d3e2143c932",
+            "nome": "91.511.260/0001-87",
+            "nomeFantasia": "91.511.260/0001-87",
+            "cpfCnpj": "91511260000187",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 210,
+            "idPessoaApi": "e1dbf726-77f0-4980-a7e0-b6878c9ea96d",
+            "nome": "91.653.390/0001-54",
+            "nomeFantasia": "91.653.390/0001-54",
+            "cpfCnpj": "91653390000154",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 204,
+            "idPessoaApi": "bd3170a8-2995-4e46-b0a9-5bbf7f0c0393",
+            "nome": "92.111.802/0001-97",
+            "cpfCnpj": "92111802000197",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 200,
+            "idPessoaApi": "da893428-a28f-474a-af0a-549842c1a224",
+            "nome": "92.333.544/0001-93",
+            "cpfCnpj": "92333544000193",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 201,
+            "idPessoaApi": "3b98de15-4cb4-41ca-ae9e-42ca177adcde",
+            "nome": "99.936.304/0001-22",
+            "nomeFantasia": "99.936.304/0001-22",
+            "cpfCnpj": "99936304000122",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 118,
+            "idPessoaApi": "721f6147-8e95-498d-9074-049f46cac064",
+            "nome": "ACESSORIOS DE UNHAS LUANA EIRELI",
+            "nomeFantasia": "ACESSORIOS DE UNHAS LUANA EIRELI",
+            "cpfCnpj": "39417433000182",
+            "telefones": [
+                {
+                    "idTelefoneApi": "d5a69243-a1bd-4143-87e1-77c72af22db4",
+                    "numero": "(11) 9 6998-0181",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "51596bd6-d92a-4c8c-a9b9-f56d782234de",
+                "email": "welington.dsn.shop@alterdata.com.br"
+            },
+            "status": 1,
+            "dataNascimento": "1987/09/30",
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 187,
+            "idPessoaApi": "c8bf2603-1e48-440b-aa17-b8c440a908a2",
+            "nome": "Ágata",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 158,
+            "idPessoaApi": "860c3250-e0d6-4df0-b351-2be8fd8d1293",
+            "nome": "AGROPECUARIA ZANOTELLI LTDA",
+            "nomeFantasia": "AGROPECUARIA ZANOTELLI LTDA",
+            "cpfCnpj": "36367720000137",
+            "status": 1,
+            "dataNascimento": "1987/10/01",
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 229,
+            "idPessoaApi": "be434b7c-ee1b-41e0-b5c9-1877395dfe3c",
+            "nome": "AGROPECUARIA ZANOTELLI LTDA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 144,
+            "idPessoaApi": "f0c24cde-fb23-49bf-b07b-a5ce5da171a3",
+            "nome": "AMAZON INDUSTRIA COM EXP E IMP DE PROD ESPECIALIZADOS LTDA",
+            "nomeFantasia": "AMAZON TATTOO",
+            "cpfCnpj": "07800274000104",
+            "telefones": [
+                {
+                    "idTelefoneApi": "e928766d-2275-4f15-a132-a160929c2135",
+                    "numero": "(75) 3334-1737",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 237,
+            "idPessoaApi": "2a21137d-f8d5-4dd3-9603-c1efdf8e6289",
+            "nome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA.",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 162,
+            "idPessoaApi": "b9057b57-f0e5-4601-89d9-b17619e23aef",
+            "nome": "AMAZON SERVICOS DE VAREJO DO BRASIL LTDA.",
+            "nomeFantasia": "AMAZON.COM.BR",
+            "cpfCnpj": "15436940000103",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 165,
+            "idPessoaApi": "abd2b04d-1367-4f19-8d26-7e20cd85f5a9",
+            "nome": "Aplic.invest plus",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 124,
+            "idPessoaApi": "c7bf3bec-9b75-4c3c-b9ed-3c52568a92d8",
+            "nome": "ARCOLUB ARCOS LUBRIFICANTES LTDA",
+            "nomeFantasia": "ARCOLUB",
+            "cpfCnpj": "00820570000128",
+            "telefones": [
+                {
+                    "idTelefoneApi": "ffdb0fa5-bbf9-41f1-96eb-45a8d57edf11",
+                    "numero": "(37) 3351-2350",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 174,
+            "idPessoaApi": "af309739-8e52-485a-bbf8-5fe0f2be49ae",
+            "nome": "Arthur",
+            "cpfCnpj": "30136853447",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 222,
+            "idPessoaApi": "224d556f-d2a8-4036-8733-537f17c1ef70",
+            "nome": "AYA PITAYA",
+            "cpfCnpj": "30188734082",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 169,
+            "idPessoaApi": "19e9580f-7025-448e-b68c-82089b641cd2",
+            "nome": "Bailee",
+            "cpfCnpj": "51649669054",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 119,
+            "idPessoaApi": "b7d8b36a-c2c1-40f8-b6ff-ff52c29e8980",
+            "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "cpfCnpj": "07580204000279",
+            "telefones": [
+                {
+                    "idTelefoneApi": "33c01972-dc0e-40df-90ac-c9cb60cc60c4",
+                    "numero": "(03) 1 3389-5900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 178,
+            "idPessoaApi": "e2c2e70e-96ec-4d50-968c-621c5994239a",
+            "nome": "Bella",
+            "cpfCnpj": "87501011885",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 137,
+            "idPessoaApi": "d9490ef5-3527-423c-b840-5a25525e31c6",
+            "nome": "BEL LOG TRANSPORTES E LOGISTICA LTDA",
+            "nomeFantasia": "BEL LOG TRANSPORTES",
+            "cpfCnpj": "11517243000118",
+            "telefones": [
+                {
+                    "idTelefoneApi": "b13c7614-0d7d-48ac-8c23-2446b999da09",
+                    "numero": "31338826363133895900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "cf215e37-ab03-41a4-996b-4abc8330791d",
+                "email": "andersoncontabilidadeferraz@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 109,
+            "idPessoaApi": "ecfd88dc-96c1-49a4-adf2-d52bfe4fa290",
+            "nome": "BRASPRESS TRANSPORTES URGENTES LTDA",
+            "status": 1
+        },
+        {
+            "idPessoa": 232,
+            "idPessoaApi": "6da99f85-2004-42b0-9847-5bc42b66a5a7",
+            "nome": "B&S ORGANIZACOES CONTABEIS LTDA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 160,
+            "idPessoaApi": "cd43796d-f515-450e-887e-05b8b5b4b1ff",
+            "nome": "B&S ORGANIZACOES CONTABEIS LTDA",
+            "nomeFantasia": "B & S ORGANIZACOES CONTABEIS",
+            "cpfCnpj": "18382814000101",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 85,
+            "idPessoaApi": "f8f3e4ef-59de-4fe1-a577-dba6543d6b1c",
+            "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+            "cpfCnpj": "95519161151",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 82,
+            "idPessoaApi": "836fab4b-071f-47ca-957c-bf02af8e0f5e",
+            "nome": "César Kaique Freitas",
+            "cpfCnpj": "13051185965",
+            "telefones": [
+                {
+                    "idTelefoneApi": "ce316f39-e2fa-4e38-9178-1f3913720451",
+                    "numero": "(21) 3910-1380",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "598fb82a-4bda-4f43-a940-a07fe97853be",
+                    "numero": "(21) 9 8778-0331",
+                    "tipo": 1,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "865de875-6339-472b-8c75-d30e8feeba3c",
+                "email": "cesar.kaique.freitas@demetriushairstudio.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 217,
+            "idPessoaApi": "28aa637b-2055-4a9a-9fc8-89d69ac715fb",
+            "nome": "Cliente MS-Pessoas",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 189,
+            "idPessoaApi": "9d06aabe-93da-4587-8c86-d8e9dab1d38c",
+            "nome": "Cliente MS-Pessoas",
+            "cpfCnpj": "88053382576",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 230,
+            "idPessoaApi": "08fb832c-c034-4b89-9641-12bbff01944f",
+            "nome": "COMERCIAL MANSUR LTDA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 159,
+            "idPessoaApi": "e2141fd6-ebab-47b4-8838-fda5351d65f0",
+            "nome": "COMERCIAL MANSUR LTDA",
+            "nomeFantasia": "COMERCIAL MANSUR",
+            "cpfCnpj": "05996625000179",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": -1,
+            "idPessoaApi": "d067aff8-4cbd-432a-baf1-1cf967fe421f",
+            "nome": "CONSUMIDOR FINAL",
+            "nomeFantasia": "CONSUMIDOR FINAL",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 173,
+            "idPessoaApi": "3927de12-0ec6-4c92-93de-f8f4bae62228",
+            "nome": "Cristian",
+            "cpfCnpj": "18652206473",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 170,
+            "idPessoaApi": "6e60e318-c837-4850-a8be-d777fd82bafa",
+            "nome": "Cristobal",
+            "cpfCnpj": "66776775400",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 103,
+            "idPessoaApi": "ee573070-70de-4e5c-b4f2-0cbb35794e8a",
+            "nome": "Dayane",
+            "nomeFantasia": "Dayane",
+            "cpfCnpj": "10742614000100",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 97,
+            "idPessoaApi": "690be642-436d-4265-a6ed-5e419c044751",
+            "nome": "Diego Bryan Enrico Souza",
+            "cpfCnpj": "85667779307",
+            "telefones": [
+                {
+                    "idTelefoneApi": "09918a5e-3db6-44f6-9675-70ec10d0178c",
+                    "numero": "(21) 9 9389-2610",
+                    "tipo": 1,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "0d512892-030f-46dd-ae00-16f3ddee406d",
+                    "numero": "(21) 3743-3572",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "36f18d4b-402a-461e-b903-6e2bcafc749a",
+                "email": "diego-bryan75@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 196,
+            "idPessoaApi": "704cbf13-fa03-4378-a02d-3ccf2b4ca7a7",
+            "nome": "EDITADO - 64.563.046/0001-00",
+            "nomeFantasia": "EDITADO",
+            "cpfCnpj": "52291006000169",
+            "telefones": [
+                {
+                    "idTelefoneApi": "05ddad56-69f2-4dac-803f-ee77fcb7126b",
+                    "numero": "(21) 9544-5365",
+                    "tipo": 1,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "d6cee3ae-6ef2-4195-8d08-d448f78e6de5",
+                "email": "wgt_tere@hotmail.comffffffffff"
+            },
+            "status": 1,
+            "dataNascimento": "2022/10/04",
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 198,
+            "idPessoaApi": "166717b2-4aac-4171-8b49-2ad7b77faa4e",
+            "nome": "EDSON PEREIRA DA ROCHA",
+            "nomeFantasia": "EDSON PEREIRA DA ROCHA",
+            "cpfCnpj": "55506535000120",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 113,
+            "idPessoaApi": "2e8835fd-4004-406c-83a4-443e6676eed3",
+            "nome": "EDSON PEREIRA DA ROCHA",
+            "cpfCnpj": "12026926727",
+            "status": 1
+        },
+        {
+            "idPessoa": 244,
+            "idPessoaApi": "310cd74e-e05a-4c60-93d6-1a23b8887781",
+            "nome": "ELEICOES 2004 CF - NEOPOLIS - SE - COMITE FINANC MUN P/VEREADOR - PRP",
+            "nomeFantasia": "ELEICOES 2004 CF - NEOPOLIS - SE - ",
+            "cpfCnpj": "06773496000112",
+            "telefones": [
+                {
+                    "idTelefoneApi": "c2d706ac-c5e9-4b29-86ed-701830c99e0b",
+                    "numero": "(22) 9 8547-6535",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "54f0662d-1fbb-4d62-8d30-e8a4d633a766",
+                "email": "EMAILDAELEICAO@ELEICAO.COM"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 195,
+            "idPessoaApi": "c2cf631f-ae9a-46e6-a703-efc466596092",
+            "nome": "ELIAS RICARDO CESAR MORAES",
+            "nomeFantasia": "ELIAS RICARDO CESAR MORAES",
+            "cpfCnpj": "71665855000180",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 225,
+            "idPessoaApi": "7c146c4b-81dd-4470-bf9a-6d8c16856a15",
+            "nome": "ELIAS SILVA LUCAS",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 227,
+            "idPessoaApi": "8f54a013-b44f-4979-99aa-de20636807f9",
+            "nome": "ELIAS SILVA LUCAS",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 146,
+            "idPessoaApi": "e840cc9c-61b9-4192-a43f-15ce2dbdc880",
+            "nome": "ELIAS SILVA LUCAS",
+            "cpfCnpj": "76519988715",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 88,
+            "idPessoaApi": "3c573b33-8f81-4e26-8e89-db627176c2d8",
+            "nome": "Eloá e Antonella Alimentos ME",
+            "cpfCnpj": "86725785000185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 207,
+            "idPessoaApi": "b67b64fd-f4af-4df1-b7c3-b4f3c8450daa",
+            "nome": "EMPREITEIRA DE CONSTRUCOES CANDIDO DE LIMA S/C LIMITADA",
+            "nomeFantasia": "EMPREITEIRA CANDIDO DE LIMA",
+            "cpfCnpj": "48407555000189",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 87,
+            "idPessoaApi": "0276d721-4e0f-4d02-8362-808c58131289",
+            "nome": "Energia LTDA",
+            "nomeFantasia": "Energia LTDA",
+            "cpfCnpj": "25485098000145",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 86,
+            "idPessoaApi": "6832c712-d7ce-4af1-8639-3e036a52063c",
+            "nome": "Erick e Laís Buffet Ltda",
+            "cpfCnpj": "72859420000139",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 98,
+            "idPessoaApi": "82b18b67-492a-491f-b31f-e6774d88e9a8",
+            "nome": "Erick Enzo Monteiro",
+            "cpfCnpj": "89042972149",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 130,
+            "idPessoaApi": "7085262f-b9fa-4e1f-bd42-17d8d19486ee",
+            "nome": "E VALENTIM DA SILVA",
+            "nomeFantasia": "CENTER RACOES",
+            "cpfCnpj": "33687358000193",
+            "telefones": [
+                {
+                    "idTelefoneApi": "2b63c3c5-1449-49f9-b6a2-f4d5d32d7508",
+                    "numero": "84988661848498162299",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "885ea88f-8780-44e6-b532-18148b17f466",
+                "email": "valentim2118silva@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 135,
+            "idPessoaApi": "16e61a70-b7fe-49d9-8722-4982cc33ddeb",
+            "nome": "FABRICADORA DE POLIURETANO RIO SUL LTDA",
+            "nomeFantasia": "03",
+            "cpfCnpj": "02895152000125",
+            "telefones": [
+                {
+                    "idTelefoneApi": "b7410b84-2193-4a10-acbc-48c819697c27",
+                    "numero": "(21) 2107-8300",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 153,
+            "idPessoaApi": "5cf0e540-53e5-4d8f-86b5-a199468d08d1",
+            "nome": "FILIPE BROSEGUINI TOMAZELLI",
+            "cpfCnpj": "05669808789",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 101,
+            "idPessoaApi": "f44056d1-671c-484c-bafd-9de72ed078cc",
+            "nome": "Fora do país",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 102,
+            "idPessoaApi": "345d23e1-4f0c-4743-98e2-92467fe735bb",
+            "nome": "fora do país 2",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 141,
+            "idPessoaApi": "39bb842f-4ed1-4657-907c-3ae3c85de53f",
+            "nome": "fornecedor",
+            "nomeFantasia": "fornecedor",
+            "cpfCnpj": "71483040000180",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 191,
+            "idPessoaApi": "ed08f317-f530-4198-8452-f1c57a1c20b5",
+            "nome": "Fornecedor - MS-Pessoas",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 190,
+            "idPessoaApi": "f3b51103-ed2f-440b-85be-c511db43d4e2",
+            "nome": "Funcionário -Pessoas",
+            "cpfCnpj": "59832644275",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 126,
+            "idPessoaApi": "81167d7f-dcde-441b-8870-fcb9c767159f",
+            "nome": "GEFPEL RN DIST. DE AUTO PECAS LTDA",
+            "nomeFantasia": "GEFPEL NATAL",
+            "cpfCnpj": "31803909000101",
+            "telefones": [
+                {
+                    "idTelefoneApi": "2a0748a2-5f36-456f-9cdf-9cb475b7bb06",
+                    "numero": "(08) 4 3343-4363",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 167,
+            "idPessoaApi": "132b9bb7-3b6b-43d1-9606-05f6076e5a1a",
+            "nome": "GFL LOGISTICA LTDA",
+            "cpfCnpj": "23820639000119",
+            "status": 1
+        },
+        {
+            "idPessoa": 183,
+            "idPessoaApi": "e297bd23-6fbd-4ef1-b858-e76db8b858c6",
+            "nome": "GUSTAVO REZENDE VALENTIM 09554679696Elza",
+            "nomeFantasia": "TEAM GUSTAVO REZENDE",
+            "cpfCnpj": "44762465000155",
+            "telefones": [
+                {
+                    "idTelefoneApi": "13f7ebef-614f-4a1c-bc00-c920136155d0",
+                    "numero": "(31) 9592-3042",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "c60b927e-e55e-4971-b5a8-554cd0a39276",
+                "email": "gustavocr7_2012@hotmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 177,
+            "idPessoaApi": "02739fc4-b6be-42d8-9b7a-8e2a008b617c",
+            "nome": "Hayla",
+            "cpfCnpj": "78849750927",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 84,
+            "idPessoaApi": "a8ee0268-9b0c-452a-8a81-4f21e9d64cb5",
+            "nome": "Hugo e Antonella Padaria Ltda",
+            "cpfCnpj": "30580282000104",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 89,
+            "idPessoaApi": "e94fbaa4-0901-4a72-b936-f68a1e928a65",
+            "nome": "Ian Vitor Martins",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 150,
+            "idPessoaApi": "2c3ac110-feb6-4402-9a99-ab19b423a145",
+            "nome": "INCOTEP IND E COM DE TUBOS ESPECIAIS DE PRECISAO LTDA",
+            "nomeFantasia": "INCOTEP IND E COM DE TUBOS ESPECIAIS DE PRECISAO LTDA",
+            "cpfCnpj": "59339408000135",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 233,
+            "idPessoaApi": "68f73dfa-b82c-431b-9812-7bfeaf91d196",
+            "nome": "INCOTEP IND E COM DE TUBOS ESPECIAIS DE PRECISAO LTDA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 93,
+            "idPessoaApi": "dc3f8ea5-b1ce-47be-9eeb-9db06d129b95",
+            "nome": "Isaac Bryan Lima",
+            "cpfCnpj": "19233145646",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 92,
+            "idPessoaApi": "7a9cd7ac-ee66-488a-8d5b-7889265e807f",
+            "nome": "Isaac Tomás Julio da Silva",
+            "cpfCnpj": "46622062609",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 181,
+            "idPessoaApi": "c3894306-06f3-4761-8774-3919cb95f4a6",
+            "nome": "Isidoro",
+            "cpfCnpj": "47226250187",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 172,
+            "idPessoaApi": "c3e874f4-e220-4a15-9577-a03d6d3afb68",
+            "nome": "Jackeline",
+            "cpfCnpj": "77636998335",
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 249,
+            "idPessoaApi": "50baa3d5-3961-4a54-acf0-1733c7e8cdef",
+            "nome": "JADLOG LOGISTICA S.A.",
+            "cpfCnpj": "04884082000569",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 145,
+            "idPessoaApi": "3b211722-922b-4818-aa9b-7fcf82f1de81",
+            "nome": "JAMEF TRANSPORTE",
+            "cpfCnpj": "20147617004996",
+            "status": 1
+        },
+        {
+            "idPessoa": 142,
+            "idPessoaApi": "4d275ff7-011d-4aa0-857b-9366b9fd036a",
+            "nome": "J JOSE PEREIRA",
+            "nomeFantasia": "J P COMERCIO DE GAS",
+            "cpfCnpj": "25346565000156",
+            "telefones": [
+                {
+                    "idTelefoneApi": "e574d7f2-2122-412b-a79a-331733a3702b",
+                    "numero": "(27) 9 9866-5894",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 90,
+            "idPessoaApi": "54029e53-fa25-4038-8f8d-1a6f6e75040a",
+            "nome": "JOAO",
+            "cpfCnpj": "28805096610",
+            "telefones": [
+                {
+                    "idTelefoneApi": "a5519082-6393-4f8d-b2a5-ef7c5e404488",
+                    "numero": "(21) 9 7493-2029",
+                    "tipo": 1,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "7e8fbf24-7094-40a2-b615-4137df722793",
+                "email": "wgt_tere@hotmail.com"
+            },
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 79,
+            "idPessoaApi": "2355c0cc-0921-475b-b75e-2f054f34d92c",
+            "nome": "Joaquim Bryan Souza",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 122,
+            "idPessoaApi": "a3c6a067-743b-479b-a2a5-b2bb546602e1",
+            "nome": "Joeane Bernado de azevedo",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 129,
+            "idPessoaApi": "ec2d5cf2-8a0b-41af-b5c8-ee0b1ea792ee",
+            "nome": "Julyne",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 133,
+            "idPessoaApi": "a521a277-5957-47cd-a7e6-a0bfcf5810a4",
+            "nome": "Junior",
+            "status": 1,
+            "dataNascimento": "2021/11/17",
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 105,
+            "idPessoaApi": "8393f573-5bb6-4369-9017-c745c17057c6",
+            "nome": "JURIDICA DENTRO DO ESTADO",
+            "nomeFantasia": "NILTON JOSE PEREIRA LIMA",
+            "cpfCnpj": "09168252000107",
+            "telefones": [
+                {
+                    "idTelefoneApi": "95ac4877-3113-43c6-ba47-5a5b4c1fe7e8",
+                    "numero": "(11) 3871-9537",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "63702fa2-af66-44d9-afa2-626cb695e5b9",
+                "email": "paiva-cont@uol.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 95,
+            "idPessoaApi": "0c47e20e-a2c3-4d3b-9695-73e21cc059af",
+            "nome": "Kevin Luiz Fernando Barros",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 136,
+            "idPessoaApi": "982b186c-4e7f-422a-bff0-0d36fa7a537e",
+            "nome": "KLESIANE APARECIDA DOS SANTOS  CIA LTDA",
+            "nomeFantasia": "JSL FOLHEADOS",
+            "cpfCnpj": "16612898000199",
+            "telefones": [
+                {
+                    "idTelefoneApi": "89a82f41-c9d3-4bd0-b21f-bab37c10f051",
+                    "numero": "(79) 3431-5865",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 83,
+            "idPessoaApi": "f0899247-c5df-468a-a816-ee4e1b107045",
+            "nome": "Lorenzo Arthur Nathan Pinto",
+            "cpfCnpj": "81466238321",
+            "telefones": [
+                {
+                    "idTelefoneApi": "9346e880-7fd7-435a-90d5-073d57bb1c11",
+                    "numero": "(21) 9 7493-2029",
+                    "tipo": 1,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "980a61f9-8e3c-4318-ab4e-1a73dc4e8d07",
+                "email": "wgt_tere@hotmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 152,
+            "idPessoaApi": "3a70433d-b0fe-4203-9e55-732895507dbd",
+            "nome": "LUANA MIRANDA MARTINS",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 236,
+            "idPessoaApi": "c6a7db88-56d4-42c9-939d-f96d70379513",
+            "nome": "LUANA MIRANDA MARTINS",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 131,
+            "idPessoaApi": "1cf14310-3b70-4c6d-a4ab-6ac3ffdea69e",
+            "nome": "LUBRIMAIA TRANSPORTES PECAS & SERVICOS LTDA",
+            "nomeFantasia": "LUBRIMAIA",
+            "cpfCnpj": "19854523000123",
+            "telefones": [
+                {
+                    "idTelefoneApi": "8f557e18-89c1-4075-9dd5-e1174e5d78a5",
+                    "numero": "31332293583135333741",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "fcbbc442-2f85-48f5-8ca4-c785fa66feaf",
+                "email": "lubrimaia@yahoo.com.br"
+            },
+            "status": 1
+        },
+        {
+            "idPessoa": 179,
+            "idPessoaApi": "9a789c19-3059-4e3b-a0d8-724bc432a078",
+            "nome": "Lumena",
+            "cpfCnpj": "15451759774",
+            "telefones": [
+                {
+                    "idTelefoneApi": "8a07029b-ff5a-4f10-90ba-e0e1700fe690",
+                    "numero": "(21) 9544-5365",
+                    "tipo": 1,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "6ca73cd4-d59b-4a96-80ec-64a152a60ab8",
+                    "numero": "(21) 9544-5365",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "77785cdd-445e-4b72-9c5a-73ace0ad546a",
+                "email": "welington.dsn.shop@alterdata.com.br"
+            },
+            "status": 1,
+            "dataNascimento": "2022/10/28",
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 143,
+            "idPessoaApi": "314eec67-3724-4ce0-b8bd-ddfe4a23228c",
+            "nome": "MAR AZUL CARGAS EIRELI",
+            "cpfCnpj": "34727031000160",
+            "status": 1
+        },
+        {
+            "idPessoa": 221,
+            "idPessoaApi": "6c084260-06fb-41dd-a6c6-e75aed0f3a75",
+            "nome": "Marcela Financeiro",
+            "cpfCnpj": "65478078352",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 106,
+            "idPessoaApi": "3f0ad7d8-6630-4c06-8c9f-3e56bc8c385d",
+            "nome": "Marcela gaspar",
+            "telefones": [
+                {
+                    "idTelefoneApi": "736418f4-84ab-4f6f-8d85-4e6559355c62",
+                    "numero": "(21) 6 5487-8787",
+                    "tipo": 1,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "0c06a0a6-209b-4103-861a-7368100d0611",
+                "email": "wgt_tere@hotmail.com"
+            },
+            "status": 1,
+            "dataNascimento": "2021/11/17",
+            "tiposPessoa": [
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 224,
+            "idPessoaApi": "26437cfe-bee1-4011-9500-6974354ead12",
+            "nome": "MARCELA M",
+            "cpfCnpj": "12297385846",
+            "telefones": [
+                {
+                    "idTelefoneApi": "8f90f3e4-efed-4b5e-880e-aca6eebb4dca",
+                    "numero": "232323",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "b6b0bfbb-bf38-4f9d-8b82-5a11258582d2",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 114,
+            "idPessoaApi": "d8d5189a-428b-433f-b82f-b4fbf33e59bb",
+            "nome": "Marcos",
+            "nomeFantasia": "Marcos",
+            "cpfCnpj": "00206908000156",
+            "email": {
+                "idEmailApi": "96ef1368-fab5-4d91-acde-b742f619b48c",
+                "email": "wgt_tere@hotmail.com"
+            },
+            "status": 0
+        },
+        {
+            "idPessoa": 164,
+            "idPessoaApi": "c8e76e91-09b8-4f76-b3a4-02388336c7b9",
+            "nome": "MARTINS COM SERV DISTR SA",
+            "cpfCnpj": "43214055001189",
+            "telefones": [
+                {
+                    "idTelefoneApi": "40141813-e2f1-4558-9c1a-d6bc64011cd8",
+                    "numero": "(71) 3493-5562",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 128,
+            "idPessoaApi": "764f6cde-5634-4580-aa5e-61244fd81acb",
+            "nome": "MART MINAS DISTRIBUICAO LTDA",
+            "nomeFantasia": "MART MINAS PARA DE MINAS",
+            "cpfCnpj": "04737552002696",
+            "telefones": [
+                {
+                    "idTelefoneApi": "c86e17cf-dc23-4ec0-af4a-ba6ef27838f6",
+                    "numero": "(37) 3231-7581",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 219,
+            "idPessoaApi": "bfd42283-e53f-479a-b006-b9ff107b1783",
+            "nome": "M. A. SOARES",
+            "nomeFantasia": "FOGAO A LENHA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 205,
+            "idPessoaApi": "489a6f6c-84ac-40c7-8eea-67e33f0a63f4",
+            "nome": "MASSARO COMERCIO DE AUTO PECAS LTDA",
+            "nomeFantasia": "MASSARO COMERCIO DE AUTO PECAS LTDA",
+            "cpfCnpj": "57157844000168",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "a5b2bc4e-cf03-4038-bfc8-d735e5cdeb43",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "64a61fd7-ff01-4458-9fbd-8b81f74ebfd5",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 107,
+            "idPessoaApi": "4e97bb87-3b47-4ea2-9a2d-177a6a3ccc11",
+            "nome": "Mel",
+            "cpfCnpj": "60596012004",
+            "status": 1,
+            "dataNascimento": "1990/10/01",
+            "tiposPessoa": [
+                {
+                    "id": "ee977583-2b4a-41dc-8368-ed5c17711517",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 206,
+            "idPessoaApi": "07cf984d-8d6b-4a28-9c13-d8cf8f3f4a5d",
+            "nome": "MEL",
+            "status": 1
+        },
+        {
+            "idPessoa": 241,
+            "idPessoaApi": "26c89e48-b508-4714-9677-bf83bb6ae276",
+            "nome": "MINISTERIO DA ECONOMIA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 238,
+            "idPessoaApi": "8ebf18a8-d8c0-48a7-90bb-607ccf2966ca",
+            "nome": "MINISTERIO DA ECONOMIA",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 147,
+            "idPessoaApi": "d9c27994-6e84-478b-ad99-2b2d08b08498",
+            "nome": "MINISTERIO DA ECONOMIA",
+            "nomeFantasia": "RECEITA FEDERAL",
+            "cpfCnpj": "00394460005887",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "7b1f0d7b-53de-419f-b1e2-81e9854722a7",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 176,
+    "totalPaginas": 2,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 100,
+    "tamanhoDePagina": 100,
+    "ultimaPagina": false,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

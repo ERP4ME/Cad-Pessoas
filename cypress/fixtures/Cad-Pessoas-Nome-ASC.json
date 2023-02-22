@@ -1,174 +1,236 @@
-[
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "14151066000197",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 6,
-        "nome": "Administradora Ltda",
-        "status": 1,
-        "idUnico": 9,
-        "idUnicoCliente": 9,
-        "idUnicoFornecedor": 8,
-        "nomeFantasia": "Administradora Ltda",
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "127.610.717-00",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 20,
-        "nome": "Antonio Pedro Henrique Yuri Fernandes",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "07.580.204/0002-79",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 35,
-        "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
-        "status": 1,
-        "telefone": "03133895900",
-        "idUnico": 41,
-        "idUnicoFornecedor": 41,
-        "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "11.517.243/0001-18",
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": true,
-        "idPessoa": 44,
-        "nome": "BEL LOG TRANSPORTES LTDA",
-        "status": 1,
-        "idUnico": 50,
-        "idUnicoTransportadora": 50,
-        "tpPessoa": 4,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "288.050.966-10",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 16,
-        "nome": "Benício Levi Vinicius Nascimento",
-        "status": 1,
-        "idUnico": 19,
-        "idUnicoCliente": 19,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "955.191.611-51",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 11,
-        "nome": "Carlos Eduardo Nicolas Heitor Pereira",
-        "status": 1,
-        "idUnico": 29,
-        "idUnicoCliente": 29,
-        "idUnicoFuncionario": 14,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "celular": "(21) 98778-0331",
-        "qtdItens": 39,
-        "cpfCnpj": "130.511.859-65",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "cesar.kaique.freitas@demetriushairstudio.com.br",
-        "idPessoa": 8,
-        "nome": "César Kaique Freitas",
-        "status": 1,
-        "telefone": "(21) 3910-1380",
-        "idUnico": 28,
-        "idUnicoCliente": 28,
-        "idUnicoFuncionario": 11,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": -1,
-        "nome": "CONSUMIDOR FINAL",
-        "status": 1,
-        "idUnico": 30,
-        "idUnicoCliente": 30,
-        "nomeFantasia": "CONSUMIDOR FINAL",
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "celular": "(21) 99389-2610",
-        "qtdItens": 39,
-        "cpfCnpj": "856.677.793-07",
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "diego-bryan75@gmail.com",
-        "idPessoa": 23,
-        "nome": "Diego Bryan Enrico Souza",
-        "status": 1,
-        "telefone": "(21) 3743-3572",
-        "idUnico": 26,
-        "idUnicoFuncionario": 26,
-        "tpPessoa": 1,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "86.725.785/0001-85",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 14,
-        "nome": "Eloá e Antonella Alimentos ME",
-        "status": 1,
-        "idUnico": 17,
-        "idUnicoFornecedor": 17,
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 136,
+            "idPessoaApi": "4d3abb96-e1c4-4141-bf68-0d121ad300ea",
+            "nome": "Administradora Ltda",
+            "nomeFantasia": "Administradora Ltda _",
+            "cpfCnpj": "14151066000197",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 171,
+            "idPessoaApi": "f230a7aa-fe13-47df-8c18-a32d692cf4e4",
+            "nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+            "nomeFantasia": "ALTERDATA SOFTWARE",
+            "cpfCnpj": "36462778000160",
+            "telefones": [
+                {
+                    "idTelefoneApi": "e3e896b6-a982-4641-8e18-d89e65c158f7",
+                    "numero": "(21) 2643-9520",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "f0aa38b4-39e9-41b1-9ae9-d69f438bfad2",
+                "email": "vitormonte.dsn.shop@alterdata.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 168,
+            "idPessoaApi": "a4faba2b-bcd6-4583-8afe-4fc6fc4cf523",
+            "nome": "André Silvano",
+            "cpfCnpj": "76027377178",
+            "email": {
+                "idEmailApi": "c317621b-d0e3-480f-8a66-e8af1d0765b0",
+                "email": "andre.dsn.shop@alterdata.com.br"
+            },
+            "status": 1,
+            "dataNascimento": "1973/03/08",
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 137,
+            "idPessoaApi": "e7f21a41-ffac-4866-9e02-2cc6a2b28c36",
+            "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "cpfCnpj": "12761071700",
+            "telefones": [
+                {
+                    "idTelefoneApi": "213b398c-1f02-4448-b0d6-201ca75726e8",
+                    "numero": "(03) 1 3389-5900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 151,
+            "idPessoaApi": "5cfb4227-07cf-47e8-b4e6-0b9cdfaa044b",
+            "nome": "BEL LOG TRANSPORTES LTDA",
+            "cpfCnpj": "11517243000118",
+            "status": 1
+        },
+        {
+            "idPessoa": 160,
+            "idPessoaApi": "8b2044b0-641f-4d07-9db0-8ced8a99071f",
+            "nome": "Benício Levi Vinicius Nascimento",
+            "cpfCnpj": "28805096610",
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 153,
+            "idPessoaApi": "f3019c40-6529-487b-b033-f2506558c9b4",
+            "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+            "cpfCnpj": "95519161151",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 139,
+            "idPessoaApi": "aefb421b-88d7-42d1-bfe6-b975ab36e8c2",
+            "nome": "César Kaique Freitas",
+            "cpfCnpj": "13051185965",
+            "telefones": [
+                {
+                    "idTelefoneApi": "f85698ec-7aa6-4ff6-ab00-7e8f17a4450b",
+                    "numero": "(21) 3910-1380",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "d220fcd5-78e0-4561-82be-a2f5039e1b2a",
+                    "numero": "(21) 9 8778-0331",
+                    "tipo": 1,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "18536331-4820-472b-8d78-d205b4a393a9",
+                "email": "cesar.kaique.freitas@demetriushairstudio.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 146,
+            "idPessoaApi": "9d1516fc-fd58-403d-bf60-bc09bff1e099",
+            "nome": "Cliente conciliação",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": -1,
+            "idPessoaApi": "57b7c6a8-72ae-405c-8a3c-038a7c22e3c1",
+            "nome": "CONSUMIDOR FINAL",
+            "nomeFantasia": "CONSUMIDOR FINAL",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 43,
+    "totalPaginas": 5,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 10,
+    "tamanhoDePagina": 10,
+    "ultimaPagina": false,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

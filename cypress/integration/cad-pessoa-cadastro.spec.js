@@ -26,12 +26,18 @@ describe('Cadastro de Pessoas - Cadastros', () => {
   })
 
   it('Quando Gravar um cadastro de pessoa sem dados, então não deve permitir e deve ocorrer validação', () => {
+    cy.intercept('GET', '/koopon-financeiro-rest-api/centros_de_custos').as("Aguardar_centros_de_custos")
     cy.AcessarPessoas()
     cy.btnNovo()
+    cy.wait("@Aguardar_centros_de_custos").its("response.statusCode").should("be.equal", 200);
     cy.btnGravar()
-    cy.contains('Informe o Nome.')
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .contains('Informe o Nome.')
       .should('have.text', 'Informe o Nome.')
-    cy.contains('Informe o Tipo de Pessoa.')
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .contains('Informe o Tipo de Pessoa.')
       .should('have.text', 'Informe o Tipo de Pessoa.')
 
   })
@@ -41,7 +47,9 @@ describe('Cadastro de Pessoas - Cadastros', () => {
     cy.btnNovo()
     cy.campoCPFCNPJ().type(pessoa.cpfCnpjInv)
     cy.btnGravar()
-    cy.contains('Informe um CPF ou CNPJ válido.')
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .contains('Informe um CPF ou CNPJ válido.')
       .should('have.text', 'Informe um CPF ou CNPJ válido.')
 
   })
@@ -63,7 +71,10 @@ describe('Cadastro de Pessoas - Cadastros', () => {
 
   it('Testar o limite máximo de caracteres do campo Nome', () => {
     cy.AcessarPessoas()
-    cy.get('#koopon-pessoa-especifica-input-nome-pessoa')
+    cy.btnNovo()
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .find('#mf-pessoa-erpforme-especifica-input-nome-pessoa')
       .should('have.attr', 'maxlength', '99')
 
   })
@@ -72,20 +83,24 @@ describe('Cadastro de Pessoas - Cadastros', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
     cy.wait(1000)
-    cy.get('#koopon-pessoa-especifica-input-nome-pessoa').type('a')
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .find('#mf-pessoa-erpforme-especifica-input-nome-pessoa').type('a')
     cy.btnGravar()
-    cy.contains('O Nome deve ter mais de 1 caracter.')
+    cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .contains('O Nome deve ter mais de 1 caracter.')
       .should('have.text', 'O Nome deve ter mais de 1 caracter.')
 
 
   })
 
   it('Excluir Pessoa com Movimentação', () => {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1',
-      { fixture: 'Cad-Pessoa-Movimentacao' }).as('PessoaMovimentada')
+    //cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1',
+      //{ fixture: 'Cad-Pessoa-Movimentacao' }).as('PessoaMovimentada')
 
     cy.AcessarPessoas()
-    cy.wait('@PessoaMovimentada')
+    //cy.wait('@PessoaMovimentada')
     cy.PessoaNome()
       .contains('Administradora Ltda')
       .should('be.visible')

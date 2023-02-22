@@ -10,9 +10,6 @@ describe('Cadastro de Pessoas - Testar função Exibir Mais ', () => {
       }
 
     })
-
-
-
   })
 
   it('Quando Clicar em exibir 50, então deve exibir até 50 pessoas cadastradas', () => {

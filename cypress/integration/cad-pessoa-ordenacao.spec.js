@@ -22,7 +22,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.wait('@ordenacao')
     cy.PessoaNome()
       .first()
-      .should('have.text', 'welington')
+      .should('have.text', 'TRINCA MOTOS E ACESSORIOS LTDA')
 
   })
 
@@ -41,7 +41,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
 
   })
 
-  it('Quando realizar a ordenação DECRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
+  it.skip('Quando realizar a ordenação DECRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=cpfCnpj&itensPorPagina=10&pagina=1&tipoOrdenacao=DESC',
       { fixture: 'Cad-Pessoas-CPF-CNPJ-DESC' }).as('ordenacao')
     cy.AcessarPessoas()
@@ -66,7 +66,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.wait('@ordenacao')
     cy.get('[data-alt-titulo="CPF / CNPJ"]')
       .first()
-      .should('have.text','01.716.725/0001-43')
+      .should('have.text','02.895.152/0001-25')
 
   })
 

@@ -1,177 +1,236 @@
-[
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "01.716.725/0001-43",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 45,
-        "nome": "OHMIC RESISTORES E REOSTATOS EIRELI",
-        "status": 1,
-        "telefone": "01939350044",
-        "idUnico": 52,
-        "idUnicoFornecedor": 52,
-        "nomeFantasia": "OHMIC",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "02.895.152/0001-25",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": true,
-        "idPessoa": 38,
-        "nome": "FABRICADORA DE POLIURETANO RIO SUL LTDA",
-        "status": 1,
-        "telefone": "2121078300",
-        "idUnico": 51,
-        "idUnicoFornecedor": 51,
-        "idUnicoTransportadora": 51,
-        "nomeFantasia": "03",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "04.737.552/0026-96",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 36,
-        "nome": "MART MINAS DISTRIBUICAO LTDA",
-        "status": 1,
-        "telefone": "3732317581",
-        "idUnico": 42,
-        "idUnicoFornecedor": 42,
-        "nomeFantasia": "MART MINAS PARA DE MINAS",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "06.098.753/0003-20",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 37,
-        "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
-        "status": 1,
-        "telefone": "8432822012",
-        "idUnico": 43,
-        "idUnicoFornecedor": 43,
-        "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "07.580.204/0002-79",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 35,
-        "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
-        "status": 1,
-        "telefone": "03133895900",
-        "idUnico": 41,
-        "idUnicoFornecedor": 41,
-        "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "082.859.954-88",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 4,
-        "nome": "Ryan Igor Heitor Dias",
-        "status": 1,
-        "idUnico": 6,
-        "idUnicoCliente": 6,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "11.517.243/0001-18",
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": true,
-        "idPessoa": 44,
-        "nome": "BEL LOG TRANSPORTES LTDA",
-        "status": 1,
-        "idUnico": 50,
-        "idUnicoTransportadora": 50,
-        "tpPessoa": 4,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "126.145.207-05",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 41,
-        "nome": "welington",
-        "status": 1,
-        "idUnico": 47,
-        "idUnicoCliente": 47,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "127.610.717-00",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 20,
-        "nome": "Antonio Pedro Henrique Yuri Fernandes",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "celular": "(21) 98778-0331",
-        "qtdItens": 39,
-        "cpfCnpj": "130.511.859-65",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "cesar.kaique.freitas@demetriushairstudio.com.br",
-        "idPessoa": 8,
-        "nome": "César Kaique Freitas",
-        "status": 1,
-        "telefone": "(21) 3910-1380",
-        "idUnico": 28,
-        "idUnicoCliente": 28,
-        "idUnicoFuncionario": 11,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 147,
+            "idPessoaApi": "eb8fe7dd-3ef2-4e37-afab-640dff180c19",
+            "nome": "FABRICADORA DE POLIURETANO RIO SUL LTDA",
+            "nomeFantasia": "03",
+            "cpfCnpj": "02895152000125",
+            "telefones": [
+                {
+                    "idTelefoneApi": "efee8ec2-1633-4a1f-8d4a-bdf38eaf1477",
+                    "numero": "(21) 2107-8300",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 135,
+            "idPessoaApi": "fe4869a3-eb89-4191-a5c8-88460e2a236e",
+            "nome": "MART MINAS DISTRIBUICAO LTDA",
+            "nomeFantasia": "MART MINAS PARA DE MINAS",
+            "cpfCnpj": "04737552002696",
+            "telefones": [
+                {
+                    "idTelefoneApi": "bffc920a-5167-458e-a853-4345817b8a2d",
+                    "numero": "(37) 3231-7581",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 134,
+            "idPessoaApi": "d33b8ee5-fea1-47b8-951f-3383bed05aea",
+            "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
+            "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
+            "cpfCnpj": "06098753000320",
+            "telefones": [
+                {
+                    "idTelefoneApi": "42227d14-3ba7-4c58-96ad-25c58959650d",
+                    "numero": "(84) 3282-2012",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 155,
+            "idPessoaApi": "75935e54-e27e-4967-a1fe-801fd804b73a",
+            "nome": "Pessoa - Teste automatizado",
+            "cpfCnpj": "07379410067",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "8a542db2-049e-4767-8b05-acceea48406d",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 164,
+            "idPessoaApi": "290f1a92-4aed-4086-8385-5c51cd65438a",
+            "nome": "Ryan Igor Heitor Dias",
+            "cpfCnpj": "08285995488",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 151,
+            "idPessoaApi": "5cfb4227-07cf-47e8-b4e6-0b9cdfaa044b",
+            "nome": "BEL LOG TRANSPORTES LTDA",
+            "cpfCnpj": "11517243000118",
+            "status": 1
+        },
+        {
+            "idPessoa": 137,
+            "idPessoaApi": "e7f21a41-ffac-4866-9e02-2cc6a2b28c36",
+            "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "cpfCnpj": "12761071700",
+            "telefones": [
+                {
+                    "idTelefoneApi": "213b398c-1f02-4448-b0d6-201ca75726e8",
+                    "numero": "(03) 1 3389-5900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 139,
+            "idPessoaApi": "aefb421b-88d7-42d1-bfe6-b975ab36e8c2",
+            "nome": "César Kaique Freitas",
+            "cpfCnpj": "13051185965",
+            "telefones": [
+                {
+                    "idTelefoneApi": "f85698ec-7aa6-4ff6-ab00-7e8f17a4450b",
+                    "numero": "(21) 3910-1380",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "d220fcd5-78e0-4561-82be-a2f5039e1b2a",
+                    "numero": "(21) 9 8778-0331",
+                    "tipo": 1,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "18536331-4820-472b-8d78-d205b4a393a9",
+                "email": "cesar.kaique.freitas@demetriushairstudio.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                }
+            ]
+        },
+        {
+            "idPessoa": 136,
+            "idPessoaApi": "4d3abb96-e1c4-4141-bf68-0d121ad300ea",
+            "nome": "Administradora Ltda",
+            "nomeFantasia": "Administradora Ltda _",
+            "cpfCnpj": "14151066000197",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 163,
+            "idPessoaApi": "acef183b-cb4b-4615-b8f3-8237385ab75b",
+            "nome": "Joaquim Bryan Souza",
+            "cpfCnpj": "19233145646",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 43,
+    "totalPaginas": 5,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 10,
+    "tamanhoDePagina": 10,
+    "ultimaPagina": false,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

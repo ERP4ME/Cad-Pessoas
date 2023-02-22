@@ -42,14 +42,15 @@ Cypress.Commands.add('login', (
 
 
     onBeforeLoad: window.localStorage.setItem('CHAVE_NAOEXIBIR_TOAST_VENCIMENTO_CERTIFICADO', 'true')
-    onBeforeLoad: window.localStorage.setItem('ULTIMA_EXIBICAO_NOVIDADES', '14/10/2022')
+    onBeforeLoad: window.localStorage.setItem('ULTIMA_EXIBICAO_NOVIDADES', '09/02/2023')
+    onBeforeLoad: window.localStorage.setItem('VERSAO_SISTEMA', 2.26)
     onBeforeLoad: window.localStorage.setItem('ARRAY_CRMS_NAO_EXIBIR_NOVIDADES', '["401241"]')
     cy.visit('/')
     // cy.pause()
     cy.get('#email-login')
       .clear()
       .type(username, { delay: 0 })
-    cy.get('.panel-body input[type="password"]').type(password, { delay: 0 }, { log: false })
+    cy.get('.panel-body input[type="password"]').type(password,{ log: false }, { delay: 0 }, )
     cy.get('#login-passaporte').click()
     cy.wait("@AguardarPagina").its("response.statusCode").should("be.equal", 200);
     cy.get(":nth-child(3) > .alt-lista-item-container").click();

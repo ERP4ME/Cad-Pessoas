@@ -1,19 +1,14 @@
-
-  
-    {
-        "qtdItens": 32,
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 183,
-        "nome": "Automatizado",
-        "status": 1,
-        "idUnico": 196,
-        "idUnicoFornecedor": 196,
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    }
-    
-   
+{
+    "idPessoa": 278,
+    "nome": "Automatizado",
+    "status": 1,
+    "idPessoaApi": "2d4c8149-48a0-49fe-8953-21783db56b01",
+    "tiposPessoa": [
+        {
+            "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+            "descricao": "Cliente",
+            "codigoTipoPessoa": 0
+        }
+    ],
+    "somenteLeitura": false
+}

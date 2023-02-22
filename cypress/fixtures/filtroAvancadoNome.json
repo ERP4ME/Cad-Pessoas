@@ -1,22 +1,47 @@
-[
-    {
-        "qtdItens": 1,
-        "cpfCnpj": "073.794.100-67",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": true,
-        "ehSocio": true,
-        "ehTransportadora": true,
-        "idPessoa": 20,
-        "nome": "Pessoa - Teste automatizado",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "idUnicoFornecedor": 38,
-        "idUnicoFuncionario": 39,
-        "idUnicoSocio": 40,
-        "idUnicoTransportadora": 41,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 155,
+            "idPessoaApi": "75935e54-e27e-4967-a1fe-801fd804b73a",
+            "nome": "Pessoa - Teste automatizado",
+            "cpfCnpj": "07379410067",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "8a542db2-049e-4767-8b05-acceea48406d",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 1,
+    "totalPaginas": 1,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 1,
+    "tamanhoDePagina": 10,
+    "ultimaPagina": true,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

@@ -1,169 +1,177 @@
-[
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "126.145.207-05",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 41,
-        "nome": "welington",
-        "status": 1,
-        "idUnico": 47,
-        "idUnicoCliente": 47,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "32.044.703/0007-01",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 39,
-        "nome": "TRINCA MOTOS E ACESSORIOS LTDA",
-        "status": 1,
-        "telefone": "2126435454",
-        "idUnico": 45,
-        "idUnicoFornecedor": 45,
-        "nomeFantasia": "TRINCA MOTOS - TERESOPOLIS",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "293.874.324-67",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 7,
-        "nome": "Thales Gustavo Castro",
-        "status": 1,
-        "idUnico": 10,
-        "idUnicoCliente": 10,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "17.359.233/0001-88",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 34,
-        "nome": "TECIDOS E ARMARINHOS MIGUEL BARTOLOMEU S/A",
-        "status": 1,
-        "telefone": "3133590000",
-        "idUnico": 40,
-        "idUnicoFornecedor": 40,
-        "nomeFantasia": "TAMBASA - Matriz",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "082.859.954-88",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 4,
-        "nome": "Ryan Igor Heitor Dias",
-        "status": 1,
-        "idUnico": 6,
-        "idUnicoCliente": 6,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "861.486.277-60",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": true,
-        "ehTransportadora": false,
-        "idPessoa": 1,
-        "nome": "Ricardo Yuri Gomes",
-        "status": 1,
-        "idUnico": 1,
-        "idUnicoCliente": 1,
-        "idUnicoSocio": 2,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "32.600.109/0001-56",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 43,
-        "nome": "RENAN DA SILVA FERREIRA 66900166687",
-        "status": 1,
-        "idUnico": 49,
-        "idUnicoFornecedor": 49,
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "32.600.109/0001-56",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 42,
-        "nome": "RENAN DA SILVA FERREIRA 66900166687",
-        "status": 1,
-        "idUnico": 48,
-        "idUnicoFornecedor": 48,
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "496.187.227-08",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 17,
-        "nome": "Raul Alexandre Rocha",
-        "status": 1,
-        "idUnico": 20,
-        "idUnicoCliente": 20,
-        "tpPessoa": 0,
-        "ultimaPagina": false
-    },
-    {
-        "qtdItens": 39,
-        "cpfCnpj": "06.098.753/0003-20",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 37,
-        "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
-        "status": 1,
-        "telefone": "8432822012",
-        "idUnico": 43,
-        "idUnicoFornecedor": 43,
-        "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
-        "tpPessoa": 2,
-        "ultimaPagina": false
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 144,
+            "idPessoaApi": "95ecb612-002f-4e02-9cca-16a2d228c5d8",
+            "nome": "TRINCA MOTOS E ACESSORIOS LTDA",
+            "nomeFantasia": "TRINCA MOTOS - TERESOPOLIS",
+            "cpfCnpj": "32044703000701",
+            "telefones": [
+                {
+                    "idTelefoneApi": "f8f323fd-746b-475f-ad23-d9889f47d245",
+                    "numero": "(21) 2643-5454",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 130,
+            "idPessoaApi": "5947b021-1932-4aa8-8fcb-65a08dee2795",
+            "nome": "Thales Gustavo Castro",
+            "cpfCnpj": "29387432467",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 170,
+            "idPessoaApi": "2204cc73-41c3-4b11-9123-84f87e33c643",
+            "nome": "TESTE SEM CPF",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 169,
+            "idPessoaApi": "85f3be13-fdc9-4447-8363-8ef7ba11cab5",
+            "nome": "TESTE SEM CPF",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 157,
+            "idPessoaApi": "15dc5d74-0148-4e12-9322-b9dc198ca027",
+            "nome": "teste",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 164,
+            "idPessoaApi": "290f1a92-4aed-4086-8385-5c51cd65438a",
+            "nome": "Ryan Igor Heitor Dias",
+            "cpfCnpj": "08285995488",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 167,
+            "idPessoaApi": "094ae3b0-1618-494d-b641-e6ac7bf4a0d7",
+            "nome": "Ricardo Yuri Gomes",
+            "cpfCnpj": "86148627760",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "8a542db2-049e-4767-8b05-acceea48406d",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 159,
+            "idPessoaApi": "a126eff1-3653-42fd-a402-e8d57aa016ca",
+            "nome": "Raul Alexandre Rocha",
+            "cpfCnpj": "49618722708",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 134,
+            "idPessoaApi": "d33b8ee5-fea1-47b8-951f-3383bed05aea",
+            "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
+            "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
+            "cpfCnpj": "06098753000320",
+            "telefones": [
+                {
+                    "idTelefoneApi": "42227d14-3ba7-4c58-96ad-25c58959650d",
+                    "numero": "(84) 3282-2012",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 165,
+            "idPessoaApi": "438cbcd3-e2b0-4ce4-838a-e6a9a0dc7106",
+            "nome": "Prefeitura Municipal",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 43,
+    "totalPaginas": 5,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 10,
+    "tamanhoDePagina": 10,
+    "ultimaPagina": false,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}
