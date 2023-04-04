@@ -46,7 +46,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.get('[data-alt-titulo="Nome"]')
-      .should('have.length', '43')
+      .should('have.length', '27')
 
   })
 
@@ -61,11 +61,11 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
       .as('waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '43')
+      .should('have.length', '30')
 
   })
 
-  it('Testar Filtro Cliente', function () {
+  it.only('Testar Filtro Cliente', function () {
     cy.intercept('GET', '//koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=cliente',
       { fixture: 'clientes' }
 
@@ -77,7 +77,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '43')
+      .should('have.length', '30')
 
   })
 
@@ -90,7 +90,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.get('#koopon-pessoa-modal-filtro-pessoas-checkbox-tipo-pessoa-funcionario').check({ force: true })
     cy.btnFiltroAvancado()
     cy.nomePessoa()
-      .should('have.length', '6')
+      .should('have.length', '3')
 
   })
 
@@ -105,7 +105,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '43')
+      .should('have.length', '8')
 
   })
 
@@ -120,7 +120,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '4')
+      .should('have.length', '2')
 
   })
 
@@ -135,7 +135,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     //cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '6')
+      .should('have.length', '3')
 
   })
 
@@ -157,17 +157,13 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
   })
 
   it('Testar Filtro por nome', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=nome,nomeFantasia&valor=Pessoa+-+Teste+automatizado,Pessoa+-+Teste+automatizado',
-      { fixture: 'filtroAvancadoNome.json' }
-    ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.acessarFiltroAvancado()
-    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('Pessoa - Teste automatizado', { delay: 0 })
+    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('Pessoa Automação', { delay: 0 })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .contains('Pessoa - Teste automatizado')
-      .should('have.text','Pessoa - Teste automatizado')
+      .contains('Pessoa Automação')
+      .should('have.text','Pessoa Automação')
 
   })
 

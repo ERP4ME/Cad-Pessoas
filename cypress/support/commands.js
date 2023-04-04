@@ -223,5 +223,14 @@ Cypress.Commands.add('nomePessoa', () => {
 })
 
 
+Cypress.Commands.add('LocalizarXMLAlterarNome', () => {
+  cy.task('lerArquivo', 'cypress/Downloads', { timeout: 30000 })
 
+})
+
+
+Cypress.Commands.add('ExcluirXML', () => {
+  cy.task('excluirArquivo',)
+
+})
 

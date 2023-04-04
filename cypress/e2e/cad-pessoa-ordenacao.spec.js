@@ -41,7 +41,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
 
   })
 
-  it.skip('Quando realizar a ordenação DECRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
+  it('Quando realizar a ordenação DECRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=cpfCnpj&itensPorPagina=10&pagina=1&tipoOrdenacao=DESC',
       { fixture: 'Cad-Pessoas-CPF-CNPJ-DESC' }).as('ordenacao')
     cy.AcessarPessoas()
@@ -52,7 +52,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.wait('@ordenacao')
     cy.get('[data-alt-titulo="CPF / CNPJ"]')
       .eq('1')
-      .should('have.text','96.312.778/0001-05')
+      .should('have.text','971.525.751-85')
 
   })
 

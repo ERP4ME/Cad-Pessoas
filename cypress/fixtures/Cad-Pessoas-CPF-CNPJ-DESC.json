@@ -1,164 +1,186 @@
 {
     "conteudo": [
         {
-            "idPessoa": 157,
-            "idPessoaApi": "15dc5d74-0148-4e12-9322-b9dc198ca027",
-            "nome": "teste",
+            "idPessoa": -1,
+            "idPessoaApi": "32171e38-affa-4989-9c41-c61140c78a71",
+            "nome": "CONSUMIDOR FINAL",
+            "nomeFantasia": "CONSUMIDOR FINAL",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
                     "tipoPadrao": 0,
                     "descricao": "Cliente"
                 }
             ]
         },
         {
-            "idPessoa": 170,
-            "idPessoaApi": "2204cc73-41c3-4b11-9123-84f87e33c643",
-            "nome": "TESTE SEM CPF",
+            "idPessoa": 15,
+            "idPessoaApi": "ce5bcba4-b72d-4f3b-877d-f6efa2e44978",
+            "nome": "Ian Vitor Martins",
+            "cpfCnpj": "97152575185",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 11,
+            "idPessoaApi": "88fc015e-3d17-4e6a-ad14-7f2404fdbe91",
+            "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+            "cpfCnpj": "95519161151",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "19444487-a4d5-4d3a-9ff6-034df5ef61b7",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "a56e8ab2-37e6-4b61-a2f1-a6bdc28f64fa",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 24,
+            "idPessoaApi": "bf821237-27c2-46de-803c-16d54ac0164a",
+            "nome": "Erick Enzo Monteiro",
+            "cpfCnpj": "89042972149",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 14,
+            "idPessoaApi": "6afd44a0-1786-4387-a3a1-994d0c6835df",
+            "nome": "Eloá e Antonella Alimentos ME",
+            "cpfCnpj": "86725785000185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
                     "tipoPadrao": 2,
                     "descricao": "Fornecedor"
                 }
             ]
         },
         {
-            "idPessoa": 141,
-            "idPessoaApi": "3d1b757c-4f5e-411a-b769-95e9916f3e7c",
-            "nome": "Pessoa do tipo (Sócio)",
+            "idPessoa": 1,
+            "idPessoaApi": "971feb55-9190-4125-b6c5-cd48c0ab2d01",
+            "nome": "Ricardo Yuri Gomes",
+            "cpfCnpj": "86148627760",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "8a542db2-049e-4767-8b05-acceea48406d",
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "88a8da4d-8570-4cd9-bab0-02321f007952",
                     "tipoPadrao": 3,
                     "descricao": "Sócio"
                 }
             ]
         },
         {
-            "idPessoa": 165,
-            "idPessoaApi": "438cbcd3-e2b0-4ce4-838a-e6a9a0dc7106",
-            "nome": "Prefeitura Municipal",
-            "status": 1,
-            "tiposPessoa": [
+            "idPessoa": 23,
+            "idPessoaApi": "325c0718-10b5-473a-92a2-b0c6ff23a299",
+            "nome": "Diego Bryan Enrico Souza",
+            "cpfCnpj": "85667779307",
+            "telefones": [
                 {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
-                    "tipoPadrao": 0,
-                    "descricao": "Cliente"
+                    "idTelefoneApi": "fe491aec-6e67-464e-8a90-1a1ace48f028",
+                    "numero": "(21) 3743-3572",
+                    "tipo": 0,
+                    "principal": true
                 },
                 {
-                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
-                    "tipoPadrao": 2,
-                    "descricao": "Fornecedor"
+                    "idTelefoneApi": "ab815ac7-94df-4eeb-952b-1ba3a35a6167",
+                    "numero": "(21) 9 9389-2610",
+                    "tipo": 1,
+                    "principal": false
                 }
-            ]
-        },
-        {
-            "idPessoa": 131,
-            "idPessoaApi": "4b065f5b-0023-4588-be2d-faab3c3aa70e",
-            "nome": "Lorenzo Arthur Nathan Pinto",
+            ],
+            "email": {
+                "idEmailApi": "24967bb3-aec2-4d37-8bbc-5a336a8ee21c",
+                "email": "diego-bryan75@gmail.com"
+            },
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
-                    "tipoPadrao": 0,
-                    "descricao": "Cliente"
-                }
-            ]
-        },
-        {
-            "idPessoa": -1,
-            "idPessoaApi": "57b7c6a8-72ae-405c-8a3c-038a7c22e3c1",
-            "nome": "CONSUMIDOR FINAL",
-            "nomeFantasia": "CONSUMIDOR FINAL",
-            "status": 1,
-            "tiposPessoa": [
-                {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
-                    "tipoPadrao": 0,
-                    "descricao": "Cliente"
-                }
-            ]
-        },
-        {
-            "idPessoa": 150,
-            "idPessoaApi": "6c2eac75-1092-412e-86b8-6ca6df50501b",
-            "nome": "Pessoa do tipo (Funcionário)",
-            "status": 1,
-            "tiposPessoa": [
-                {
-                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
+                    "id": "a56e8ab2-37e6-4b61-a2f1-a6bdc28f64fa",
                     "tipoPadrao": 1,
                     "descricao": "Funcionário"
                 },
                 {
-                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
+                    "id": "19444487-a4d5-4d3a-9ff6-034df5ef61b7",
                     "tipoPadrao": 4,
                     "descricao": "Transportadora"
                 }
             ]
         },
         {
-            "idPessoa": 169,
-            "idPessoaApi": "85f3be13-fdc9-4447-8363-8ef7ba11cab5",
-            "nome": "TESTE SEM CPF",
+            "idPessoa": 12,
+            "idPessoaApi": "d5f4f0ce-557b-4404-994f-ee2a230ac598",
+            "nome": "Erick e Laís Buffet Ltda",
+            "cpfCnpj": "72859420000139",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
                     "tipoPadrao": 2,
                     "descricao": "Fornecedor"
                 }
             ]
         },
         {
-            "idPessoa": 146,
-            "idPessoaApi": "9d1516fc-fd58-403d-bf60-bc09bff1e099",
-            "nome": "Cliente conciliação",
+            "idPessoa": 19,
+            "idPessoaApi": "52f3bdcd-1543-4d59-b9ae-8b9e419a995e",
+            "nome": "Isaac Bryan Lima",
+            "cpfCnpj": "69852265075",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "bf0faee7-4162-41dd-a887-827883fe51c6",
-                    "tipoPadrao": 1,
-                    "descricao": "Funcionário"
-                },
-                {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
                     "tipoPadrao": 0,
                     "descricao": "Cliente"
-                },
-                {
-                    "id": "e7513448-8265-498c-a624-c6f8b59472c1",
-                    "tipoPadrao": 4,
-                    "descricao": "Transportadora"
-                },
-                {
-                    "id": "2440b790-2d23-49d8-bb77-d9685b8db929",
-                    "tipoPadrao": 2,
-                    "descricao": "Fornecedor"
                 }
             ]
         },
         {
-            "idPessoa": 143,
-            "idPessoaApi": "b695740d-b82e-4aad-9140-0a284dd1b43b",
+            "idPessoa": 21,
+            "idPessoaApi": "3e260329-5f36-41db-9e65-4f01cffc22c8",
             "nome": "Kevin Luiz Fernando Barros",
+            "cpfCnpj": "61885162189",
             "status": 1,
             "tiposPessoa": [
                 {
-                    "id": "ec8f55f2-5336-44cd-8487-840714d965af",
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
                     "tipoPadrao": 0,
                     "descricao": "Cliente"
                 }
             ]
         }
     ],
-    "totalElementos": 43,
-    "totalPaginas": 5,
+    "totalElementos": 27,
+    "totalPaginas": 3,
     "numeroDaPagina": 1,
     "tamanhoDestaPagina": 10,
     "tamanhoDePagina": 10,

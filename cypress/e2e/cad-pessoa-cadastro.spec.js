@@ -85,13 +85,22 @@ describe('Cadastro de Pessoas - Cadastros', () => {
     cy.wait(1000)
     cy.get('mf-erpforme-pessoa')
       .shadow()
-      .find('#mf-pessoa-erpforme-especifica-input-nome-pessoa').type('a')
+      .find('#mf-pessoa-erpforme-especifica-input-nome-pessoa').type('W')
+      cy.get('mf-erpforme-pessoa')
+      .shadow()
+      .find('#mf-pessoa-erpforme-especifica-select-tipos-pessoa-pessoa')
+      .click({ force: true })
+    cy.get('mf-erpforme-pessoa').shadow()
+      .contains('Cliente', { force: true })
+      .click()
     cy.btnGravar()
     cy.get('mf-erpforme-pessoa')
       .shadow()
       .contains('O Nome deve ter mais de 1 caracter.')
       .should('have.text', 'O Nome deve ter mais de 1 caracter.')
+  
 
+  
 
   })
 

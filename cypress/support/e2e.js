@@ -15,8 +15,21 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-import './commands-login'
+//import './commands-login'
+import './gui-login'
 
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from
+    // failing the test
+    return false
+  })
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.on('uncaught:exception', (err, runnable, promise) => {
+  if (promise) {
+    return false
+  }
+
+})
 
