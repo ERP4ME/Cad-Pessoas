@@ -22,11 +22,9 @@ Cypress.Commands.add('login', (
     cy.AcessarSistema()
 
   }
-
   const options = {
     cacheAcrossSpecs: true,
   }
-
   if (cacheSession) {
     cy.session(username, login, options)
   } else {

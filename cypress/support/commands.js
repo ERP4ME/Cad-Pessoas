@@ -5,14 +5,9 @@ Cypress.Commands.add('btnNovo', () => {
 })
 
 Cypress.Commands.add('btnGravar', () => {
-  //cy.get('#modal-pessoa-gravar').click()
-  
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-botao-gravar')
     .click({ force: true })
-
-
 })
-
 
 let pessoa = {
   nome: 'Automatizado',
@@ -39,12 +34,9 @@ let pessoa = {
   }
 
 }
-
-
 Cypress.Commands.add('campoCPFCNPJ', () => {
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-cpf-cnpj')
 })
-
 
 Cypress.Commands.add('criarPessoas', () => {
   cy.intercept('GET', '/koopon-financeiro-rest-api/centros_de_custos').as("Aguardar_centros_de_custos")
@@ -82,8 +74,6 @@ Cypress.Commands.add('criarPessoas', () => {
 
 
 })
-
-
 Cypress.Commands.add('criarPessoaContribuinte', (tipoContribuinte) => {
   cy.btnNovo()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-cpf-cnpj').type(pessoa.cpfCnpj, { force: true }, { delay: 4 })
@@ -109,9 +99,6 @@ Cypress.Commands.add('criarPessoaContribuinte', (tipoContribuinte) => {
   cy.btnGravar()
 
 })
-
-
-
 Cypress.Commands.add('criarPessoaTipoPessoas', (tipoPessoa) => {
   cy.btnNovo()
   cy.get('#koopon-pessoa-especifica-input-nome-pessoa').type(pessoa.nome)
@@ -119,7 +106,6 @@ Cypress.Commands.add('criarPessoaTipoPessoas', (tipoPessoa) => {
   cy.btnGravar()
 
 })
-
 
 Cypress.Commands.add('validarPessoasCriada', (txt) => {
   cy.get('[data-alt-titulo="Nome"]')
@@ -135,8 +121,6 @@ Cypress.Commands.add('validarPessoasCriada', (txt) => {
     .should('not.exist')
 
 })
-
-
 
 Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuinte) => {
   cy.btnNovo()
@@ -164,27 +148,18 @@ Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuint
 
 
 })
-
-
 Cypress.Commands.add('PessoaNome', () => {
   cy.get('[data-alt-titulo="Nome"]').as('Nome')
 })
-
-
 Cypress.Commands.add('acessarFiltroAvancado', () => {
   cy.get('#koopon-pessoa-pessoas [data-toggle="dropdown"]')
     .eq('1')
     .click()
   cy.get('[ng-click*="filtroAvancado"]').click()
 })
-
-
-
 Cypress.Commands.add('btnFiltroAvancado', () => {
   cy.get('#koopon-pessoa-modal-filtro-pessoas-botao-filtrar').click()
 })
-
-
 Cypress.Commands.add('limparLixo', () => {
   cy.AcessarPessoas()
   cy.request({
@@ -208,29 +183,31 @@ Cypress.Commands.add('limparLixo', () => {
   })
 })
 
-
-
-
 Cypress.Commands.add('exibir100Itens', () => {
   cy.get('#koopon-pessoa-pessoas button[ng-click*="Pagina(100)"]')
     .click()
 })
 
-
-
 Cypress.Commands.add('nomePessoa', () => {
   cy.get('[data-alt-titulo="Nome"]')
 })
-
 
 Cypress.Commands.add('LocalizarXMLAlterarNome', () => {
   cy.task('lerArquivo', 'cypress/Downloads', { timeout: 30000 })
 
 })
 
-
 Cypress.Commands.add('ExcluirXML', () => {
   cy.task('excluirArquivo',)
 
 })
 
+Cypress.Commands.add('ExportarAquivos',(arquivo)=>{
+  cy.get('#pessoa-btn-exportar-xls-pdf').click()
+      cy.contains(arquivo).click()
+})
+
+Cypress.Commands.add('BaixarArquivo',()=>{
+  cy.get('[ng-click*="exportacaoPessoas"]').click({ force: true })
+  cy.contains('Baixar arquivo')
+})

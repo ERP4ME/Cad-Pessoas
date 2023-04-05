@@ -77,7 +77,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '30')
+      .should('have.length', '31')
 
   })
 

@@ -3,13 +3,6 @@
 describe('Cadastro de Pessoas - Ordenação ', () => {
   beforeEach(() => {
     cy.login()
-    Cypress.on('uncaught:exception', (err, runnable, promise) => {
-      if (promise) {
-        return false
-      }
-
-    })
-
 
   })
 
@@ -52,7 +45,7 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.wait('@ordenacao')
     cy.get('[data-alt-titulo="CPF / CNPJ"]')
       .eq('1')
-      .should('have.text','971.525.751-85')
+      .should('have.text', '971.525.751-85')
 
   })
 
@@ -66,9 +59,8 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.wait('@ordenacao')
     cy.get('[data-alt-titulo="CPF / CNPJ"]')
       .first()
-      .should('have.text','02.895.152/0001-25')
+      .should('have.text', '02.895.152/0001-25')
 
   })
-
 
 })

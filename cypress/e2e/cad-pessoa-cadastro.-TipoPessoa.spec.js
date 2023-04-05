@@ -13,7 +13,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
 
     })
 
-
   })
 
   it.skip('Deletar lixo antes de rodar o teste', () => {
@@ -23,7 +22,7 @@ describe('Cadastro de Pessoas - Cadastros', () => {
   const tipo = require('../fixtures/cad-Pessoas-TipoPessoas.json')
 
   tipo.forEach((item, index) => {
-    it.only(`Cadastar pessoa do tipo  ${item.tipoPessoa} e ${item.TipoPessoacontribuinte} `, () => {
+    it(`Cadastar pessoa do tipo  ${item.tipoPessoa} e ${item.TipoPessoacontribuinte} `, () => {
       cy.AcessarPessoas()
       cy.criarTipoPessoaContribuinte(item.tipoPessoa, item.TipoPessoacontribuinte)
       cy.wait('@AguardarCadastro').its('response.statusCode').should('be.equal', 200)
