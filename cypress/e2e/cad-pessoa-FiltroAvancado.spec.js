@@ -66,7 +66,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
   })
 
   it.only('Testar Filtro Cliente', function () {
-    cy.intercept('GET', '//koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=cliente',
+    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1&propriedade=tppessoa&valor=cliente',
       { fixture: 'clientes' }
 
     ).as('waitFiltro')
@@ -77,7 +77,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.btnFiltroAvancado()
     cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '31')
+      .should('have.length', '27')
 
   })
 
