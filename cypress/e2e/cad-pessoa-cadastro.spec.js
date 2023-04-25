@@ -1,21 +1,16 @@
 /// <reference types="cypress"/>
 
-
-
 describe('Cadastro de Pessoas - Cadastros', () => {
   beforeEach(function () {
     cy.login()
   })
-
   const pessoa = require('../fixtures/pessoa.json')
-
   it('Quando clicar em Novo, então deve validar se a tela é aberta', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
     cy.contains('Nova Pessoa')
       .should('have.text', 'Nova Pessoa')
   })
-
   it('Quando Gravar um cadastro de pessoa sem dados, então não deve permitir e deve ocorrer validação', () => {
     cy.intercept('GET', '/koopon-financeiro-rest-api/centros_de_custos').as("Aguardar_centros_de_custos")
     cy.AcessarPessoas()
@@ -32,7 +27,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
       .should('have.text', 'Informe o Tipo de Pessoa.')
 
   })
-
   it('Quando Gravar um cadastro de pessoa com CPF/CPNJ invalido, então não deve permitir e deve ocorrer validação', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
@@ -43,20 +37,17 @@ describe('Cadastro de Pessoas - Cadastros', () => {
       .contains('Informe um CPF ou CNPJ válido.')
       .should('have.text', 'Informe um CPF ou CNPJ válido.')
   })
-
   it('Quando Gravar um cadastro de pessoa com CPF/CPNJ já cadastrado, então não deve permitir e deve ocorrer validação', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
     cy.campoCPFCNPJ().type(pessoa.cpfCnpjExistente)
 
   })
-
-  it('Quando Gravar um cadastro de pessoas completo e com dados validos, então deve ser feito o cadastro corretamente', () => {
+  it.only('Quando Gravar um cadastro de pessoas completo e com dados validos, então deve ser feito o cadastro corretamente', () => {
     cy.AcessarPessoas()
     cy.criarPessoas()
 
   })
-
   it('Testar o limite máximo de caracteres do campo Nome', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
@@ -66,7 +57,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
       .should('have.attr', 'maxlength', '99')
 
   })
-
   it('Testar o limite minimo de caracteres', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
@@ -91,7 +81,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
 
 
   })
-
   it('Excluir Pessoa com Movimentação', () => {
     cy.AcessarPessoas()
     cy.PessoaNome()

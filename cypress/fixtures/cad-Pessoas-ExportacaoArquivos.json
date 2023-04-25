@@ -1,35 +1,20 @@
 [
     {
-        "tipoPessoa": "Cliente",
-        "TipoPessoaValue": "object:1738"
+        "tipoPessoa": "Cliente"
     },
     {
-        "tipoPessoa": "Funcionário",
-        "TipoPessoaValue": "object:1739"
+        "tipoPessoa": "Funcionário"
     },
     {
-        "tipoPessoa": "Fornecedor",
-        "TipoPessoaValue": "object:1740"
+        "tipoPessoa": "Fornecedor"
     },
-
     {
-        "tipoPessoa": "Sócio",
-        "TipoPessoaValue": "object:1741"
+        "tipoPessoa": "Sócio"
     },
-
     {
-        "tipoPessoa": "Todos",
-        "TipoPessoaValue": "object:1744"
+        "tipoPessoa": "Todos"
     },
-
     {
-        "tipoPessoa": "Transportadora",
-        "TipoPessoaValue": "object:1742"
+        "tipoPessoa": "Transportadora"
     }
-
-
-
-   
-   
-   
 ]

@@ -20,7 +20,6 @@ describe('Cadastro de Pessoas - Cadastros', () => {
   })
 
   const tipo = require('../fixtures/cad-Pessoas-TipoPessoas.json')
-
   tipo.forEach((item, index) => {
     it(`Cadastar pessoa do tipo  ${item.tipoPessoa} e ${item.TipoPessoacontribuinte} `, () => {
       cy.AcessarPessoas()

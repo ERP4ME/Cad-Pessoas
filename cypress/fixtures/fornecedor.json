@@ -1,135 +1,308 @@
-[
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "14151066000197",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 6,
-        "nome": "Administradora Ltda",
-        "status": 1,
-        "idUnico": 9,
-        "idUnicoCliente": 9,
-        "idUnicoFornecedor": 8,
-        "nomeFantasia": "Administradora Ltda",
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "86.725.785/0001-85",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 14,
-        "nome": "Eloá e Antonella Alimentos ME",
-        "status": 1,
-        "idUnico": 17,
-        "idUnicoFornecedor": 17,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "25485098000145",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 13,
-        "nome": "Energia LTDA",
-        "status": 1,
-        "idUnico": 16,
-        "idUnicoFornecedor": 16,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "72.859.420/0001-39",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 12,
-        "nome": "Erick e Laís Buffet Ltda",
-        "status": 1,
-        "idUnico": 15,
-        "idUnicoFornecedor": 15,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "30.580.282/0001-04",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 10,
-        "nome": "Hugo e Antonella Padaria Ltda",
-        "status": 1,
-        "idUnico": 13,
-        "idUnicoFornecedor": 13,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 30,
-        "nome": "Pessoa do tipo (Fornecedor)",
-        "status": 1,
-        "idUnico": 44,
-        "idUnicoFornecedor": 44,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "cpfCnpj": "073.794.100-67",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": true,
-        "ehSocio": true,
-        "ehTransportadora": true,
-        "idPessoa": 20,
-        "nome": "Pessoa - Teste automatizado",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "idUnicoFornecedor": 38,
-        "idUnicoFuncionario": 39,
-        "idUnicoSocio": 40,
-        "idUnicoTransportadora": 41,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 8,
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 3,
-        "nome": "Prefeitura Municipal",
-        "status": 1,
-        "idUnico": 5,
-        "idUnicoCliente": 5,
-        "idUnicoFornecedor": 4,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 6,
+            "idPessoaApi": "20b50a07-caa7-4cfb-b4d1-5c6b4fb5b034",
+            "nome": "Administradora Ltda",
+            "nomeFantasia": "Administradora Ltda",
+            "cpfCnpj": "14151066000197",
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 26,
+            "idPessoaApi": "50d730ea-1271-4281-9ed0-4c1b371b5be0",
+            "nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+            "nomeFantasia": "ALTERDATA SOFTWARE",
+            "cpfCnpj": "36462778000160",
+            "telefones": [
+                {
+                    "idTelefoneApi": "4db0aa1f-a12e-43f7-bdeb-4bcfcde80c10",
+                    "numero": "(21) 2643-9520",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "1c8e5835-6e07-4b74-934c-980a1f6ac8dc",
+                "email": "gtf.contabilidade@alterdata.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 120,
+            "idPessoaApi": "3c221663-63f5-4a5f-becb-5446bcfb587f",
+            "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "cpfCnpj": "07580204000279",
+            "telefones": [
+                {
+                    "idTelefoneApi": "a46e510f-0c26-402e-9fde-997963b65296",
+                    "numero": "(03) 1 3389-5900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 14,
+            "idPessoaApi": "6afd44a0-1786-4387-a3a1-994d0c6835df",
+            "nome": "Eloá e Antonella Alimentos ME",
+            "cpfCnpj": "86725785000185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 13,
+            "idPessoaApi": "5db2f2f9-34eb-4545-8a70-80b02672ef3e",
+            "nome": "Energia LTDA",
+            "cpfCnpj": "25485098000145",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 12,
+            "idPessoaApi": "d5f4f0ce-557b-4404-994f-ee2a230ac598",
+            "nome": "Erick e Laís Buffet Ltda",
+            "cpfCnpj": "72859420000139",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 121,
+            "idPessoaApi": "5373a038-3d2c-400d-b356-a70c87db6b25",
+            "nome": "FABRICADORA DE POLIURETANO RIO SUL LTDA",
+            "nomeFantasia": "03",
+            "cpfCnpj": "02895152000125",
+            "telefones": [
+                {
+                    "idTelefoneApi": "0a74ea7e-83f3-4b8c-87a3-337544dc9662",
+                    "numero": "(21) 2107-8300",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 10,
+            "idPessoaApi": "26424d86-784d-45ec-835f-b0b3de6948e0",
+            "nome": "Hugo e Antonella Padaria Ltda",
+            "cpfCnpj": "30580282000104",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 124,
+            "idPessoaApi": "fe92130e-2122-4e1b-b67f-f8a7c8154721",
+            "nome": "J JOSE PEREIRA",
+            "nomeFantasia": "J P COMERCIO DE GAS",
+            "cpfCnpj": "25346565000156",
+            "telefones": [
+                {
+                    "idTelefoneApi": "c269e237-9787-4421-8e6f-cd302435cfa3",
+                    "numero": "(27) 9 9866-5894",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 123,
+            "idPessoaApi": "237d8e53-cfd0-4cc3-8a02-d0693ae5039e",
+            "nome": "MART MINAS DISTRIBUICAO LTDA",
+            "nomeFantasia": "MART MINAS PARA DE MINAS",
+            "cpfCnpj": "04737552002696",
+            "telefones": [
+                {
+                    "idTelefoneApi": "5d08fa24-64ba-4991-aa58-edf4566d0f2d",
+                    "numero": "(37) 3231-7581",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 25,
+            "idPessoaApi": "cead7c0f-a41b-415d-a786-c39da8b7b45f",
+            "nome": "Pessoa Automação",
+            "nomeFantasia": "GASPARINI",
+            "cpfCnpj": "52164984862",
+            "telefones": [
+                {
+                    "idTelefoneApi": "cbc118b4-b5c1-4ac6-a248-f2ecf7239fc6",
+                    "numero": "(38) 3 7412-5963",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "bd3dd6cd-12f0-4a3c-88bf-ab8ea4ff4a59",
+                    "numero": "(51) 3434-2420",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "f6396e67-003e-47d1-9064-13e59c0d4e96",
+                    "numero": "(27) 9884-2398",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "100a3cb6-db25-4f2a-bbbe-849488ffc060",
+                    "numero": "(64) 9949-9875",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "5329b355-cafc-4424-8719-b248bc017962",
+                "email": "gabrielmotac@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 3,
+            "idPessoaApi": "2cb12f13-5f49-4c6a-8a49-6f109c19218f",
+            "nome": "Prefeitura Municipal",
+            "cpfCnpj": "22867724791",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 122,
+            "idPessoaApi": "e9d6ef4a-183f-405e-bc20-272afd51ba0d",
+            "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
+            "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
+            "cpfCnpj": "06098753000320",
+            "telefones": [
+                {
+                    "idTelefoneApi": "8e3b0e00-c7ff-48ca-b7c3-83fd2d726151",
+                    "numero": "(84) 3282-2012",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 125,
+            "idPessoaApi": "c74dc5f2-6908-46d7-b7d6-3b2b15125478",
+            "nome": "TRINCA MOTOS E ACESSORIOS LTDA",
+            "nomeFantasia": "TRINCA MOTOS - TERESOPOLIS",
+            "cpfCnpj": "32044703000701",
+            "telefones": [
+                {
+                    "idTelefoneApi": "219c3aa1-a88c-4930-a7c9-a182d56bcef9",
+                    "numero": "(21) 2643-5454",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 14,
+    "totalPaginas": 1,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 14,
+    "tamanhoDePagina": 100,
+    "ultimaPagina": true,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

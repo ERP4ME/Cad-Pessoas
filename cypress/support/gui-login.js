@@ -30,9 +30,7 @@ Cypress.Commands.add('login', (
   } else {
     login()
   }
-
 })
-
 Cypress.Commands.add('AcessarSistema', () => {
   cy.wait("@AguardarEmpresa").its("response.statusCode").should("be.equal", 200);
   cy.get('.active > b', { timeout: 10000 })
@@ -42,10 +40,10 @@ Cypress.Commands.add('AcessarSistema', () => {
 
 Cypress.Commands.add('AcessarPessoas', () => {
   cy.visit('/')
-  cy.get('#koopon-cabecalho-navbar-cadastro')
+  cy.get('#koopon-cabecalho-navbar-cadastro',{ timeout: 50000 })
     .should('be.visible')
     .click({ force: true })
-    cy.get('#koopon-cabecalho-navbar-cadastro-pessoa-adicionar')
+    cy.get('#koopon-cabecalho-navbar-cadastro-pessoa-adicionar',{ timeout: 50000 })
     .should('be.visible')
     .click({ force: true })
 

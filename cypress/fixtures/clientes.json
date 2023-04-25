@@ -1,346 +1,398 @@
-[
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "14151066000197",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 6,
-        "nome": "Administradora Ltda",
-        "status": 1,
-        "idUnico": 9,
-        "idUnicoCliente": 9,
-        "idUnicoFornecedor": 8,
-        "nomeFantasia": "Administradora Ltda",
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "288.050.966-10",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 16,
-        "nome": "Benício Levi Vinicius Nascimento",
-        "status": 0,
-        "idUnico": 19,
-        "idUnicoCliente": 19,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "955.191.611-51",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 11,
-        "nome": "Carlos Eduardo Nicolas Heitor Pereira",
-        "status": 1,
-        "idUnico": 29,
-        "idUnicoCliente": 29,
-        "idUnicoFuncionario": 14,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "celular": "(21) 98778-0331",
-        "qtdItens": 21,
-        "cpfCnpj": "130.511.859-65",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "cesar.kaique.freitas@demetriushairstudio.com.br",
-        "idPessoa": 8,
-        "nome": "César Kaique Freitas",
-        "status": 1,
-        "telefone": "(21) 3910-1380",
-        "idUnico": 28,
-        "idUnicoCliente": 28,
-        "idUnicoFuncionario": 11,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": -1,
-        "nome": "CONSUMIDOR FINAL",
-        "status": 1,
-        "idUnico": 30,
-        "idUnicoCliente": 30,
-        "nomeFantasia": "CONSUMIDOR FINAL",
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "890.429.721-49",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 24,
-        "nome": "Erick Enzo Monteiro",
-        "status": 1,
-        "idUnico": 27,
-        "idUnicoCliente": 27,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "13.555.401-9",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 15,
-        "nome": "Ian Vitor Martins",
-        "status": 1,
-        "idUnico": 18,
-        "idUnicoCliente": 18,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "192.331.456-46",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 19,
-        "nome": "Isaac Bryan Lima",
-        "status": 1,
-        "idUnico": 22,
-        "idUnicoCliente": 22,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "466.220.626-09",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 18,
-        "nome": "Isaac Tomás Julio da Silva",
-        "status": 1,
-        "idUnico": 21,
-        "idUnicoCliente": 21,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "192.331.456-46",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 5,
-        "nome": "Joaquim Bryan Souza",
-        "status": 1,
-        "idUnico": 7,
-        "idUnicoCliente": 7,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 21,
-        "nome": "Kevin Luiz Fernando Barros",
-        "status": 1,
-        "idUnico": 24,
-        "idUnicoCliente": 24,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 9,
-        "nome": "Lorenzo Arthur Nathan Pinto",
-        "status": 1,
-        "idUnico": 12,
-        "idUnicoCliente": 12,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "381.217.613-01",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 22,
-        "nome": "Nathan Luiz Araújo",
-        "status": 1,
-        "idUnico": 25,
-        "idUnicoCliente": 25,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 29,
-        "nome": "Pessoa do tipo (Cliente)",
-        "status": 1,
-        "idUnico": 43,
-        "idUnicoCliente": 43,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "073.794.100-67",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": true,
-        "ehSocio": true,
-        "ehTransportadora": true,
-        "idPessoa": 20,
-        "nome": "Pessoa - Teste automatizado",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "idUnicoFornecedor": 38,
-        "idUnicoFuncionario": 39,
-        "idUnicoSocio": 40,
-        "idUnicoTransportadora": 41,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 3,
-        "nome": "Prefeitura Municipal",
-        "status": 1,
-        "idUnico": 5,
-        "idUnicoCliente": 5,
-        "idUnicoFornecedor": 4,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "496.187.227-08",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 17,
-        "nome": "Raul Alexandre Rocha",
-        "status": 1,
-        "idUnico": 20,
-        "idUnicoCliente": 20,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "861.486.277-60",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": true,
-        "ehTransportadora": false,
-        "idPessoa": 1,
-        "nome": "Ricardo Yuri Gomes",
-        "status": 1,
-        "idUnico": 1,
-        "idUnicoCliente": 1,
-        "idUnicoSocio": 2,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "082.859.954-88",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 4,
-        "nome": "Ryan Igor Heitor Dias",
-        "status": 1,
-        "idUnico": 6,
-        "idUnicoCliente": 6,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 27,
-        "nome": "teste",
-        "status": 1,
-        "idUnico": 37,
-        "idUnicoCliente": 37,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 21,
-        "cpfCnpj": "293.874.324-67",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 7,
-        "nome": "Thales Gustavo Castro",
-        "status": 1,
-        "idUnico": 10,
-        "idUnicoCliente": 10,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 6,
+            "idPessoaApi": "20b50a07-caa7-4cfb-b4d1-5c6b4fb5b034",
+            "nome": "Administradora Ltda",
+            "nomeFantasia": "Administradora Ltda",
+            "cpfCnpj": "14151066000197",
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 26,
+            "idPessoaApi": "50d730ea-1271-4281-9ed0-4c1b371b5be0",
+            "nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+            "nomeFantasia": "ALTERDATA SOFTWARE",
+            "cpfCnpj": "36462778000160",
+            "telefones": [
+                {
+                    "idTelefoneApi": "4db0aa1f-a12e-43f7-bdeb-4bcfcde80c10",
+                    "numero": "(21) 2643-9520",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "1c8e5835-6e07-4b74-934c-980a1f6ac8dc",
+                "email": "gtf.contabilidade@alterdata.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 16,
+            "idPessoaApi": "4d622267-e36c-4bb8-9cfd-188e546750f2",
+            "nome": "Benício Levi Vinicius Nascimento",
+            "cpfCnpj": "28805096610",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 11,
+            "idPessoaApi": "88fc015e-3d17-4e6a-ad14-7f2404fdbe91",
+            "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+            "cpfCnpj": "95519161151",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 8,
+            "idPessoaApi": "2ebbfe0b-308f-4934-a002-bfeb78106965",
+            "nome": "César Kaique Freitas",
+            "cpfCnpj": "13051185965",
+            "telefones": [
+                {
+                    "idTelefoneApi": "6bcdad4a-d68c-4117-a746-dc20c0e85fd1",
+                    "numero": "(21) 9 8778-0331",
+                    "tipo": 1,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "8ae90042-e0a4-4bb1-851c-0bed72d0ad2a",
+                    "numero": "(21) 3910-1380",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "75f160fd-e25d-4e1d-91f7-a8d3d3861116",
+                "email": "cesar.kaique.freitas@demetriushairstudio.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": -1,
+            "idPessoaApi": "32171e38-affa-4989-9c41-c61140c78a71",
+            "nome": "CONSUMIDOR FINAL",
+            "nomeFantasia": "CONSUMIDOR FINAL",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 24,
+            "idPessoaApi": "bf821237-27c2-46de-803c-16d54ac0164a",
+            "nome": "Erick Enzo Monteiro",
+            "cpfCnpj": "89042972149",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 119,
+            "idPessoaApi": "8ee4313c-b3b5-458c-beff-2a5d2956971c",
+            "nome": "GRUPO NBM COMUNICACAO E PROPAGANDA LTDA",
+            "nomeFantasia": "NBM .COM UNICA",
+            "cpfCnpj": "30382439000197",
+            "telefones": [
+                {
+                    "idTelefoneApi": "d592e92b-7680-4e73-ab7a-f5d484d246ab",
+                    "numero": "(61) 8567-0001",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "de0e2f4c-855e-4acd-b1f3-68addaa4d78f",
+                "email": "lorenzo@gruponbm.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 15,
+            "idPessoaApi": "ce5bcba4-b72d-4f3b-877d-f6efa2e44978",
+            "nome": "Ian Vitor Martins",
+            "cpfCnpj": "97152575185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 19,
+            "idPessoaApi": "52f3bdcd-1543-4d59-b9ae-8b9e419a995e",
+            "nome": "Isaac Bryan Lima",
+            "cpfCnpj": "69852265075",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 18,
+            "idPessoaApi": "6e43b504-5dea-434f-a741-2ad3287d8a3d",
+            "nome": "Isaac Tomás Julio da Silva",
+            "cpfCnpj": "46622062609",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 5,
+            "idPessoaApi": "1575dbc3-4fb7-4092-92dd-f0721080ea9e",
+            "nome": "Joaquim Bryan Souza",
+            "cpfCnpj": "19233145646",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 21,
+            "idPessoaApi": "3e260329-5f36-41db-9e65-4f01cffc22c8",
+            "nome": "Kevin Luiz Fernando Barros",
+            "cpfCnpj": "61885162189",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 9,
+            "idPessoaApi": "b3ab6304-32cf-444a-a4fb-5052ed0dee20",
+            "nome": "Lorenzo Arthur Nathan Pinto",
+            "cpfCnpj": "44578102238",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 22,
+            "idPessoaApi": "e6e50cb8-f29e-4aa3-8156-84318c748494",
+            "nome": "Nathan Luiz Araújo",
+            "cpfCnpj": "38121761301",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 25,
+            "idPessoaApi": "cead7c0f-a41b-415d-a786-c39da8b7b45f",
+            "nome": "Pessoa Automação",
+            "nomeFantasia": "GASPARINI",
+            "cpfCnpj": "52164984862",
+            "telefones": [
+                {
+                    "idTelefoneApi": "cbc118b4-b5c1-4ac6-a248-f2ecf7239fc6",
+                    "numero": "(38) 3 7412-5963",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "f6396e67-003e-47d1-9064-13e59c0d4e96",
+                    "numero": "(27) 9884-2398",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "100a3cb6-db25-4f2a-bbbe-849488ffc060",
+                    "numero": "(64) 9949-9875",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "bd3dd6cd-12f0-4a3c-88bf-ab8ea4ff4a59",
+                    "numero": "(51) 3434-2420",
+                    "tipo": 0,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "5329b355-cafc-4424-8719-b248bc017962",
+                "email": "gabrielmotac@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 20,
+            "idPessoaApi": "c66d8cca-2648-4b5f-9a2d-e66a8ff4b892",
+            "nome": "Pessoa Fora do estado ",
+            "cpfCnpj": "12761071700",
+            "status": 1,
+            "dataNascimento": "1987/01/01",
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 3,
+            "idPessoaApi": "2cb12f13-5f49-4c6a-8a49-6f109c19218f",
+            "nome": "Prefeitura Municipal",
+            "cpfCnpj": "22867724791",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 17,
+            "idPessoaApi": "875254ce-1d9f-45d5-8858-c6cd9eeb1abc",
+            "nome": "Raul Alexandre Rocha",
+            "cpfCnpj": "49618722708",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 1,
+            "idPessoaApi": "971feb55-9190-4125-b6c5-cd48c0ab2d01",
+            "nome": "Ricardo Yuri Gomes",
+            "cpfCnpj": "86148627760",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 4,
+            "idPessoaApi": "5d50c2fd-8207-4cce-8b1a-eb766f924bba",
+            "nome": "Ryan Igor Heitor Dias",
+            "cpfCnpj": "08285995488",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 7,
+            "idPessoaApi": "5068cb4e-fa97-4477-849d-9f65a132eb4b",
+            "nome": "Thales Gustavo Castro",
+            "cpfCnpj": "29387432467",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 22,
+    "totalPaginas": 1,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 22,
+    "tamanhoDePagina": 100,
+    "ultimaPagina": true,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

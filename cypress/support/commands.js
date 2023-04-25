@@ -3,12 +3,10 @@ const sampleForm = require('../fixtures/sampleForm.json')
 Cypress.Commands.add('btnNovo', () => {
   cy.get('#koopon-pessoa-criar-pessoa-button', { timeout: 1000 }).click()
 })
-
 Cypress.Commands.add('btnGravar', () => {
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-botao-gravar')
     .click({ force: true })
 })
-
 let pessoa = {
   nome: 'Automatizado',
   nomeFantasia: 'Automatizado',
@@ -37,7 +35,6 @@ let pessoa = {
 Cypress.Commands.add('campoCPFCNPJ', () => {
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-cpf-cnpj')
 })
-
 Cypress.Commands.add('criarPessoas', () => {
   cy.intercept('GET', '/koopon-financeiro-rest-api/centros_de_custos').as("Aguardar_centros_de_custos")
   cy.btnNovo()
@@ -60,8 +57,10 @@ Cypress.Commands.add('criarPessoas', () => {
     .contains(pessoa.ehContribuinteIcms.NãoContribuinte, { force: true })
     .click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 }, { force: true })
+ // cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-novo-endereco').click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { force: true })
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { force: true })
+ // cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-adicionar-endereco').click()
   cy.btnGravar()
   cy.get('[data-alt-titulo="Nome"]')
     .contains('Automatizado')
@@ -94,6 +93,7 @@ Cypress.Commands.add('criarPessoaContribuinte', (tipoContribuinte) => {
     .contains(tipoContribuinte, { force: true })
     .click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 }, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-novo-endereco').click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { force: true })
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { force: true })
   cy.btnGravar()
@@ -106,7 +106,6 @@ Cypress.Commands.add('criarPessoaTipoPessoas', (tipoPessoa) => {
   cy.btnGravar()
 
 })
-
 Cypress.Commands.add('validarPessoasCriada', (txt) => {
   cy.get('[data-alt-titulo="Nome"]')
     .contains('Automatizado')
@@ -121,7 +120,6 @@ Cypress.Commands.add('validarPessoasCriada', (txt) => {
     .should('not.exist')
 
 })
-
 Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuinte) => {
   cy.btnNovo()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-cpf-cnpj').type(pessoa.cpfCnpj, { delay: 0 }, { force: true })
@@ -142,6 +140,7 @@ Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuint
     .contains(tipoContribuinte, { force: true })
     .click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 }, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-novo-endereco').click()
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { force: true })
   cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { force: true })
   cy.btnGravar()
@@ -182,32 +181,28 @@ Cypress.Commands.add('limparLixo', () => {
 
   })
 })
-
 Cypress.Commands.add('exibir100Itens', () => {
   cy.get('#koopon-pessoa-pessoas button[ng-click*="Pagina(100)"]')
     .click()
 })
-
 Cypress.Commands.add('nomePessoa', () => {
   cy.get('[data-alt-titulo="Nome"]')
 })
-
 Cypress.Commands.add('LocalizarXMLAlterarNome', () => {
   cy.task('lerArquivo', 'cypress/Downloads', { timeout: 30000 })
 
 })
-
 Cypress.Commands.add('ExcluirXML', () => {
   cy.task('excluirArquivo',)
 
 })
-
 Cypress.Commands.add('ExportarAquivos',(arquivo)=>{
   cy.get('#pessoa-btn-exportar-xls-pdf').click()
       cy.contains(arquivo).click()
 })
-
 Cypress.Commands.add('BaixarArquivo',()=>{
-  cy.get('[ng-click*="exportacaoPessoas"]').click({ force: true })
+  cy.get('[ng-click*="exportacaoPessoas"]')
+  .should('be.visible')
+  .click({ force: true })
   cy.contains('Baixar arquivo')
 })

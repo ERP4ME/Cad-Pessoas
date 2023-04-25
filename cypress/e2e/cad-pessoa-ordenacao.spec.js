@@ -5,7 +5,6 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
     cy.login()
 
   })
-
   it('Quando realizar a ordenação DECRESCENTE pelo NOME, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=nome&itensPorPagina=10&pagina=1&tipoOrdenacao=DESC', { fixture: 'Cad-Pessoas-Nome-DESC' }).as('ordenacao')
     cy.AcessarPessoas()
@@ -18,7 +17,6 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
       .should('have.text', 'TRINCA MOTOS E ACESSORIOS LTDA')
 
   })
-
   it('Quando realizar a ordenação CRESCENTE pelo NOME, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=nome&itensPorPagina=10&pagina=1&tipoOrdenacao=ASC',
       { fixture: 'Cad-Pessoas-Nome-ASC' }).as('ordenacaoASC')
@@ -33,7 +31,6 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
       .should('have.text', 'Administradora Ltda')
 
   })
-
   it('Quando realizar a ordenação DECRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=cpfCnpj&itensPorPagina=10&pagina=1&tipoOrdenacao=DESC',
       { fixture: 'Cad-Pessoas-CPF-CNPJ-DESC' }).as('ordenacao')
@@ -48,7 +45,6 @@ describe('Cadastro de Pessoas - Ordenação ', () => {
       .should('have.text', '971.525.751-85')
 
   })
-
   it('Quando realizar a ordenação CRESCENTE pelo CPF/CPNJ, então a ordenação deve ocorrer corretamente', () => {
     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?campoOrdenacao=cpfCnpj&itensPorPagina=10&pagina=1&tipoOrdenacao=ASC',
       { fixture: 'Cad-Pessoas-CPF-CNPJ-ASC' }).as('ordenacao')
