@@ -48,7 +48,7 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
     cy.acessarFiltroAvancado()
     cy.btnFiltroAvancado()
     cy.nomePessoa()
-      .should('have.length', '34')
+      .should('have.length', '38')
 
   })
   it('Testar Filtro Cliente', function () {

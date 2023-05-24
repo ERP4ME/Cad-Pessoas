@@ -43,7 +43,7 @@ describe('Cadastro de Pessoas - Cadastros', () => {
     cy.campoCPFCNPJ().type(pessoa.cpfCnpjExistente)
 
   })
-  it.only('Quando Gravar um cadastro de pessoas completo e com dados validos, então deve ser feito o cadastro corretamente', () => {
+  it('Quando Gravar um cadastro de pessoas completo e com dados validos, então deve ser feito o cadastro corretamente', () => {
     cy.AcessarPessoas()
     cy.criarPessoas()
 
