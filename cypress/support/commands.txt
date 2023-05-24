@@ -59,6 +59,16 @@ Cypress.Commands.add('criarPessoas', () => {
   cy.AdiconarListaEndereco()
   cy.btnGravar()
   cy.excluirPessoa('Automatizado','Automatizado')
+  // cy.get('[data-alt-titulo="Nome"]')
+  //   .contains('Automatizado')
+  //   .should('be.visible')
+  //   .and('have.text', 'Automatizado')
+  //   .parent()
+  //   .find('[title="Excluir"]')
+  //   .click()
+  // cy.get('#confirmar-exclusao-modal-generico').click()
+
+
 })
 Cypress.Commands.add('criarPessoaContribuinte', (tipoContribuinte) => {
   cy.btnNovo()
@@ -79,7 +89,10 @@ Cypress.Commands.add('criarPessoaContribuinte', (tipoContribuinte) => {
     .shadow()
     .contains(tipoContribuinte, { force: true })
     .click()
-  cy.AdiconarListaEndereco()
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 }, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-novo-endereco').click()
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { force: true })
   cy.btnGravar()
 
 })
@@ -123,7 +136,10 @@ Cypress.Commands.add('criarTipoPessoaContribuinte', (tipoPessoa, tipoContribuint
     .shadow()
     .contains(tipoContribuinte, { force: true })
     .click()
-  cy.AdiconarListaEndereco()
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-input-inscricao-estadual').type(pessoa.inscricaoEstadual, { delay: 0 }, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#erp4me-mf-pessoa-botao-novo-endereco').click()
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-cep').type(pessoa.endereco.cep, { force: true })
+  cy.get('mf-erpforme-pessoa').shadow().find('#mf-pessoa-erpforme-especifica-aba-endereco-input-numero').type(pessoa.endereco.numero, { force: true })
   cy.btnGravar()
 
 
