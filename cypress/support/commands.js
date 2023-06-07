@@ -144,7 +144,7 @@ Cypress.Commands.add('limparLixo', () => {
   cy.AcessarPessoas()
   cy.request({
     method: 'GET',
-    url: '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1'
+    url: '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1'
 
   }).should(({ status, body }) => {
     body.conteudo.forEach(body => {

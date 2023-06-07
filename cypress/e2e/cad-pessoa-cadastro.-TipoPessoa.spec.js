@@ -4,7 +4,7 @@ const sampleForm = require('../fixtures/sampleForm.json')
 describe('Cadastro de Pessoas - Cadastros', () => {
   beforeEach(function () {
     cy.login()
-    cy.limparLixo()
+    //cy.limparLixo()
     cy.intercept('POST', '/koopon-pessoa-rest-api/pessoas').as('AguardarCadastro')
     Cypress.on('uncaught:exception', (err, runnable, promise) => {
       if (promise) {
