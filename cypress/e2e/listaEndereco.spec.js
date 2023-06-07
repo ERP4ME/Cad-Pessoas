@@ -40,7 +40,7 @@ describe('Cadastro de Pessoas - Testar lista de Endereço', () => {
       .find('#erp4me-mf-pessoa-botao-novo-endereco')
       .should('not.be.visible')
   })
-  it.skip('Deve validar se todas as 3 opções de lista de endereço é exibida', () => {
+  it.skip('Deve validar se todas asdd 3 opções de lista de endereço é exibida', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
     cy.get('mf-erpforme-pessoa')
