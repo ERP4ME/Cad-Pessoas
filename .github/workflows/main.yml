@@ -113,6 +113,27 @@ jobs:
         with:
           path: cypress/videos
 
+  cypress-tests-ExportarArquivos:
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node12.18.3-chrome87-ff82
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Run end-to-end tests on tablet viewport 🧪
+        uses: cypress-io/github-action@v5
+        env:
+          CYPRESS_USER_EMAIL: ${{ secrets.CYPRESS_USER_EMAIL }}
+          CYPRESS_USER_PASSWORD: ${{ secrets.CYPRESS_USER_PASSWORD }}
+        with:
+          command: npm run test:Ordenacao
+
+      - name: Upload a Build Artifact
+        if: always()
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          path: cypress/videos
+
   
 
   
