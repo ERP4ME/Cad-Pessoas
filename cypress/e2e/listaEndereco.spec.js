@@ -6,7 +6,7 @@ describe('Cadastro de Pessoas - Testar lista de Endereço', () => {
   })
   const pessoa = require('../fixtures/pessoa.json')
 
-  it.skip('Quando Criar uma nova pessoa deve validar se a opção de Lista de Endereço esta visível', () => {
+  it.skip('Quando Criar uma nov pessoa deve validar se a opção de Lista de Endereço esta visível', () => {
     cy.AcessarPessoas()
     cy.btnNovo()
     cy.get('mf-erpforme-pessoa')
