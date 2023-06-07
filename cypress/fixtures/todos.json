@@ -1,507 +1,846 @@
-[
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "14151066000197",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 6,
-        "nome": "Administradora Ltda",
-        "status": 1,
-        "idUnico": 9,
-        "idUnicoCliente": 9,
-        "idUnicoFornecedor": 8,
-        "nomeFantasia": "Administradora Ltda",
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "288.050.966-10",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 16,
-        "nome": "Benício Levi Vinicius Nascimento",
-        "status": 0,
-        "idUnico": 19,
-        "idUnicoCliente": 19,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "955.191.611-51",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 11,
-        "nome": "Carlos Eduardo Nicolas Heitor Pereira",
-        "status": 1,
-        "idUnico": 29,
-        "idUnicoCliente": 29,
-        "idUnicoFuncionario": 14,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "celular": "(21) 98778-0331",
-        "qtdItens": 31,
-        "cpfCnpj": "130.511.859-65",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "cesar.kaique.freitas@demetriushairstudio.com.br",
-        "idPessoa": 8,
-        "nome": "César Kaique Freitas",
-        "status": 1,
-        "telefone": "(21) 3910-1380",
-        "idUnico": 28,
-        "idUnicoCliente": 28,
-        "idUnicoFuncionario": 11,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": -1,
-        "nome": "CONSUMIDOR FINAL",
-        "status": 1,
-        "idUnico": 30,
-        "idUnicoCliente": 30,
-        "nomeFantasia": "CONSUMIDOR FINAL",
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "celular": "(21) 99389-2610",
-        "qtdItens": 31,
-        "cpfCnpj": "856.677.793-07",
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "email": "diego-bryan75@gmail.com",
-        "idPessoa": 23,
-        "nome": "Diego Bryan Enrico Souza",
-        "status": 1,
-        "telefone": "(21) 3743-3572",
-        "idUnico": 26,
-        "idUnicoFuncionario": 26,
-        "tpPessoa": 1,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "86.725.785/0001-85",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 14,
-        "nome": "Eloá e Antonella Alimentos ME",
-        "status": 1,
-        "idUnico": 17,
-        "idUnicoFornecedor": 17,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "25485098000145",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 13,
-        "nome": "Energia LTDA",
-        "status": 1,
-        "idUnico": 16,
-        "idUnicoFornecedor": 16,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "72.859.420/0001-39",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 12,
-        "nome": "Erick e Laís Buffet Ltda",
-        "status": 1,
-        "idUnico": 15,
-        "idUnicoFornecedor": 15,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "890.429.721-49",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 24,
-        "nome": "Erick Enzo Monteiro",
-        "status": 1,
-        "idUnico": 27,
-        "idUnicoCliente": 27,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "30.580.282/0001-04",
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 10,
-        "nome": "Hugo e Antonella Padaria Ltda",
-        "status": 1,
-        "idUnico": 13,
-        "idUnicoFornecedor": 13,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "13.555.401-9",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 15,
-        "nome": "Ian Vitor Martins",
-        "status": 1,
-        "idUnico": 18,
-        "idUnicoCliente": 18,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "192.331.456-46",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 19,
-        "nome": "Isaac Bryan Lima",
-        "status": 1,
-        "idUnico": 22,
-        "idUnicoCliente": 22,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "466.220.626-09",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 18,
-        "nome": "Isaac Tomás Julio da Silva",
-        "status": 1,
-        "idUnico": 21,
-        "idUnicoCliente": 21,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "192.331.456-46",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 5,
-        "nome": "Joaquim Bryan Souza",
-        "status": 1,
-        "idUnico": 7,
-        "idUnicoCliente": 7,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 21,
-        "nome": "Kevin Luiz Fernando Barros",
-        "status": 1,
-        "idUnico": 24,
-        "idUnicoCliente": 24,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 9,
-        "nome": "Lorenzo Arthur Nathan Pinto",
-        "status": 1,
-        "idUnico": 12,
-        "idUnicoCliente": 12,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "381.217.613-01",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 22,
-        "nome": "Nathan Luiz Araújo",
-        "status": 1,
-        "idUnico": 25,
-        "idUnicoCliente": 25,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "celular": "(21) 98732-3568",
-        "qtdItens": 31,
-        "cpfCnpj": "552.188.110-76",
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": true,
-        "ehTransportadora": false,
-        "idPessoa": 2,
-        "nome": "Olivia Milena Gomes",
-        "status": 1,
-        "telefone": "(21) 2765-0942",
-        "idUnico": 3,
-        "idUnicoSocio": 3,
-        "tpPessoa": 3,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 29,
-        "nome": "Pessoa do tipo (Cliente)",
-        "status": 1,
-        "idUnico": 43,
-        "idUnicoCliente": 43,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": false,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 30,
-        "nome": "Pessoa do tipo (Fornecedor)",
-        "status": 1,
-        "idUnico": 44,
-        "idUnicoFornecedor": 44,
-        "tpPessoa": 2,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": true,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 31,
-        "nome": "Pessoa do tipo (Funcionário)",
-        "status": 1,
-        "idUnico": 45,
-        "idUnicoFuncionario": 45,
-        "tpPessoa": 1,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": true,
-        "ehTransportadora": false,
-        "idPessoa": 32,
-        "nome": "Pessoa do tipo (Sócio)",
-        "status": 1,
-        "idUnico": 46,
-        "idUnicoSocio": 46,
-        "tpPessoa": 3,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": false,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": true,
-        "idPessoa": 33,
-        "nome": "Pessoa do tipo (Transportadora)",
-        "status": 1,
-        "idUnico": 47,
-        "idUnicoTransportadora": 47,
-        "tpPessoa": 4,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "073.794.100-67",
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": true,
-        "ehSocio": true,
-        "ehTransportadora": true,
-        "idPessoa": 20,
-        "nome": "Pessoa - Teste automatizado",
-        "status": 1,
-        "idUnico": 23,
-        "idUnicoCliente": 23,
-        "idUnicoFornecedor": 38,
-        "idUnicoFuncionario": 39,
-        "idUnicoSocio": 40,
-        "idUnicoTransportadora": 41,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": true,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 3,
-        "nome": "Prefeitura Municipal",
-        "status": 1,
-        "idUnico": 5,
-        "idUnicoCliente": 5,
-        "idUnicoFornecedor": 4,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "496.187.227-08",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 17,
-        "nome": "Raul Alexandre Rocha",
-        "status": 1,
-        "idUnico": 20,
-        "idUnicoCliente": 20,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "861.486.277-60",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": true,
-        "ehTransportadora": false,
-        "idPessoa": 1,
-        "nome": "Ricardo Yuri Gomes",
-        "status": 1,
-        "idUnico": 1,
-        "idUnicoCliente": 1,
-        "idUnicoSocio": 2,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "082.859.954-88",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 4,
-        "nome": "Ryan Igor Heitor Dias",
-        "status": 1,
-        "idUnico": 6,
-        "idUnicoCliente": 6,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 27,
-        "nome": "teste",
-        "status": 1,
-        "idUnico": 37,
-        "idUnicoCliente": 37,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    },
-    {
-        "qtdItens": 31,
-        "cpfCnpj": "293.874.324-67",
-        "ehCliente": true,
-        "ehFornecedor": false,
-        "ehFuncionario": false,
-        "ehSocio": false,
-        "ehTransportadora": false,
-        "idPessoa": 7,
-        "nome": "Thales Gustavo Castro",
-        "status": 1,
-        "idUnico": 10,
-        "idUnicoCliente": 10,
-        "tpPessoa": 0,
-        "ultimaPagina": true
-    }
-]
+{
+    "conteudo": [
+        {
+            "idPessoa": 6,
+            "idPessoaApi": "20b50a07-caa7-4cfb-b4d1-5c6b4fb5b034",
+            "nome": "Administradora Ltda",
+            "nomeFantasia": "Administradora Ltda",
+            "cpfCnpj": "14151066000197",
+            "status": 0,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 26,
+            "idPessoaApi": "50d730ea-1271-4281-9ed0-4c1b371b5be0",
+            "nome": "ALTERDATA TECNOLOGIA EM INFORMATICA LTDA",
+            "nomeFantasia": "ALTERDATA SOFTWARE",
+            "cpfCnpj": "36462778000160",
+            "telefones": [
+                {
+                    "idTelefoneApi": "4db0aa1f-a12e-43f7-bdeb-4bcfcde80c10",
+                    "numero": "(21) 2643-9520",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "1c8e5835-6e07-4b74-934c-980a1f6ac8dc",
+                "email": "gtf.contabilidade@alterdata.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 120,
+            "idPessoaApi": "3c221663-63f5-4a5f-becb-5446bcfb587f",
+            "nome": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "nomeFantasia": "BEL DISTRIBUIDOR DE LUBRIFICANTES LTDA",
+            "cpfCnpj": "07580204000279",
+            "telefones": [
+                {
+                    "idTelefoneApi": "a46e510f-0c26-402e-9fde-997963b65296",
+                    "numero": "(03) 1 3389-5900",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 16,
+            "idPessoaApi": "4d622267-e36c-4bb8-9cfd-188e546750f2",
+            "nome": "Benício Levi Vinicius Nascimento",
+            "cpfCnpj": "28805096610",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 11,
+            "idPessoaApi": "88fc015e-3d17-4e6a-ad14-7f2404fdbe91",
+            "nome": "Carlos Eduardo Nicolas Heitor Pereira",
+            "cpfCnpj": "95519161151",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "19444487-a4d5-4d3a-9ff6-034df5ef61b7",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "a56e8ab2-37e6-4b61-a2f1-a6bdc28f64fa",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                },
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 8,
+            "idPessoaApi": "2ebbfe0b-308f-4934-a002-bfeb78106965",
+            "nome": "César Kaique Freitas",
+            "cpfCnpj": "13051185965",
+            "telefones": [
+                {
+                    "idTelefoneApi": "6bcdad4a-d68c-4117-a746-dc20c0e85fd1",
+                    "numero": "(21) 9 8778-0331",
+                    "tipo": 1,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "8ae90042-e0a4-4bb1-851c-0bed72d0ad2a",
+                    "numero": "(21) 3910-1380",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "75f160fd-e25d-4e1d-91f7-a8d3d3861116",
+                "email": "cesar.kaique.freitas@demetriushairstudio.com.br"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "19444487-a4d5-4d3a-9ff6-034df5ef61b7",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "a56e8ab2-37e6-4b61-a2f1-a6bdc28f64fa",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 168,
+            "idPessoaApi": "c82ce658-9d2d-425d-98ff-9e3cd9abc779",
+            "nome": "CIA ULTRAGAZ S/A",
+            "nomeFantasia": "CIA ULTRAGAZ S/A - BETIM",
+            "cpfCnpj": "61602199027665",
+            "telefones": [
+                {
+                    "idTelefoneApi": "4367ed9d-df26-4802-976e-bcb719846ef4",
+                    "numero": "40031616",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": -1,
+            "idPessoaApi": "32171e38-affa-4989-9c41-c61140c78a71",
+            "nome": "CONSUMIDOR FINAL",
+            "nomeFantasia": "CONSUMIDOR FINAL",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 23,
+            "idPessoaApi": "325c0718-10b5-473a-92a2-b0c6ff23a299",
+            "nome": "Diego Bryan Enrico Souza",
+            "cpfCnpj": "85667779307",
+            "telefones": [
+                {
+                    "idTelefoneApi": "fe491aec-6e67-464e-8a90-1a1ace48f028",
+                    "numero": "(21) 3743-3572",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "ab815ac7-94df-4eeb-952b-1ba3a35a6167",
+                    "numero": "(21) 9 9389-2610",
+                    "tipo": 1,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "24967bb3-aec2-4d37-8bbc-5a336a8ee21c",
+                "email": "diego-bryan75@gmail.com"
+            },
+            "status": 1,
+            "dataNascimento": "2000/12/01",
+            "tiposPessoa": [
+                {
+                    "id": "19444487-a4d5-4d3a-9ff6-034df5ef61b7",
+                    "tipoPadrao": 4,
+                    "descricao": "Transportadora"
+                },
+                {
+                    "id": "a56e8ab2-37e6-4b61-a2f1-a6bdc28f64fa",
+                    "tipoPadrao": 1,
+                    "descricao": "Funcionário"
+                }
+            ]
+        },
+        {
+            "idPessoa": 14,
+            "idPessoaApi": "6afd44a0-1786-4387-a3a1-994d0c6835df",
+            "nome": "Eloá e Antonella Alimentos ME",
+            "cpfCnpj": "86725785000185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 13,
+            "idPessoaApi": "5db2f2f9-34eb-4545-8a70-80b02672ef3e",
+            "nome": "Energia LTDA",
+            "cpfCnpj": "25485098000145",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 12,
+            "idPessoaApi": "d5f4f0ce-557b-4404-994f-ee2a230ac598",
+            "nome": "Erick e Laís Buffet Ltda",
+            "cpfCnpj": "72859420000139",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 24,
+            "idPessoaApi": "bf821237-27c2-46de-803c-16d54ac0164a",
+            "nome": "Erick Enzo Monteiro",
+            "cpfCnpj": "89042972149",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 121,
+            "idPessoaApi": "5373a038-3d2c-400d-b356-a70c87db6b25",
+            "nome": "FABRICADORA DE POLIURETANO RIO SUL LTDA",
+            "nomeFantasia": "03",
+            "cpfCnpj": "02895152000125",
+            "telefones": [
+                {
+                    "idTelefoneApi": "0a74ea7e-83f3-4b8c-87a3-337544dc9662",
+                    "numero": "(21) 2107-8300",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 119,
+            "idPessoaApi": "8ee4313c-b3b5-458c-beff-2a5d2956971c",
+            "nome": "GRUPO NBM COMUNICACAO E PROPAGANDA LTDA",
+            "nomeFantasia": "NBM .COM UNICA",
+            "cpfCnpj": "30382439000197",
+            "telefones": [
+                {
+                    "idTelefoneApi": "d592e92b-7680-4e73-ab7a-f5d484d246ab",
+                    "numero": "(61) 8567-0001",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "de0e2f4c-855e-4acd-b1f3-68addaa4d78f",
+                "email": "lorenzo@gruponbm.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 10,
+            "idPessoaApi": "26424d86-784d-45ec-835f-b0b3de6948e0",
+            "nome": "Hugo e Antonella Padaria Ltda",
+            "cpfCnpj": "30580282000104",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 15,
+            "idPessoaApi": "ce5bcba4-b72d-4f3b-877d-f6efa2e44978",
+            "nome": "Ian Vitor Martins",
+            "cpfCnpj": "97152575185",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 19,
+            "idPessoaApi": "52f3bdcd-1543-4d59-b9ae-8b9e419a995e",
+            "nome": "Isaac Bryan Lima",
+            "cpfCnpj": "69852265075",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 18,
+            "idPessoaApi": "6e43b504-5dea-434f-a741-2ad3287d8a3d",
+            "nome": "Isaac Tomás Julio da Silva",
+            "cpfCnpj": "46622062609",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 124,
+            "idPessoaApi": "fe92130e-2122-4e1b-b67f-f8a7c8154721",
+            "nome": "J JOSE PEREIRA",
+            "nomeFantasia": "J P COMERCIO DE GAS",
+            "cpfCnpj": "25346565000156",
+            "telefones": [
+                {
+                    "idTelefoneApi": "c269e237-9787-4421-8e6f-cd302435cfa3",
+                    "numero": "(27) 9 9866-5894",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 5,
+            "idPessoaApi": "1575dbc3-4fb7-4092-92dd-f0721080ea9e",
+            "nome": "Joaquim Bryan Souza",
+            "cpfCnpj": "19233145646",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 21,
+            "idPessoaApi": "3e260329-5f36-41db-9e65-4f01cffc22c8",
+            "nome": "Kevin Luiz Fernando Barros",
+            "cpfCnpj": "61885162189",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 9,
+            "idPessoaApi": "b3ab6304-32cf-444a-a4fb-5052ed0dee20",
+            "nome": "Lorenzo Arthur Nathan Pinto",
+            "cpfCnpj": "44578102238",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 123,
+            "idPessoaApi": "237d8e53-cfd0-4cc3-8a02-d0693ae5039e",
+            "nome": "MART MINAS DISTRIBUICAO LTDA",
+            "nomeFantasia": "MART MINAS PARA DE MINAS",
+            "cpfCnpj": "04737552002696",
+            "telefones": [
+                {
+                    "idTelefoneApi": "5d08fa24-64ba-4991-aa58-edf4566d0f2d",
+                    "numero": "(37) 3231-7581",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 136,
+            "idPessoaApi": "be1a5a67-196b-497b-a6f9-671626ca0c88",
+            "nome": "MOVEIS RONIPA EIRELI",
+            "nomeFantasia": "MOVEIS RONIPA EIRELI",
+            "cpfCnpj": "06241494000182",
+            "telefones": [
+                {
+                    "idTelefoneApi": "e7369f6b-44b4-4082-b924-0cfa05adcd6b",
+                    "numero": "(27) 3373-2197",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 22,
+            "idPessoaApi": "e6e50cb8-f29e-4aa3-8156-84318c748494",
+            "nome": "Nathan Luiz Araújo",
+            "cpfCnpj": "38121761301",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 2,
+            "idPessoaApi": "ff6b45b5-2f72-406c-93de-076cc18e05b2",
+            "nome": "Olivia Milena Gomes",
+            "cpfCnpj": "55218811076",
+            "telefones": [
+                {
+                    "idTelefoneApi": "78e07b60-b093-40e2-b1b2-38fe64b509c5",
+                    "numero": "(21) 2765-0942",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "6a1bee17-5dfc-466d-abf6-7fc2d7ab4853",
+                    "numero": "(21) 9 8732-3568",
+                    "tipo": 1,
+                    "principal": false
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "88a8da4d-8570-4cd9-bab0-02321f007952",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 25,
+            "idPessoaApi": "cead7c0f-a41b-415d-a786-c39da8b7b45f",
+            "nome": "Pessoa Automação",
+            "cpfCnpj": "52164984862",
+            "telefones": [
+                {
+                    "idTelefoneApi": "cbc118b4-b5c1-4ac6-a248-f2ecf7239fc6",
+                    "numero": "(38) 3 7412-5963",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "100a3cb6-db25-4f2a-bbbe-849488ffc060",
+                    "numero": "(64) 9949-9875",
+                    "tipo": 0,
+                    "principal": true
+                },
+                {
+                    "idTelefoneApi": "f6396e67-003e-47d1-9064-13e59c0d4e96",
+                    "numero": "(27) 9884-2398",
+                    "tipo": 0,
+                    "principal": false
+                },
+                {
+                    "idTelefoneApi": "bd3dd6cd-12f0-4a3c-88bf-ab8ea4ff4a59",
+                    "numero": "(51) 3434-2420",
+                    "tipo": 0,
+                    "principal": false
+                }
+            ],
+            "email": {
+                "idEmailApi": "5329b355-cafc-4424-8719-b248bc017962",
+                "email": "gabrielmotac@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 133,
+            "idPessoaApi": "ddd02865-c39d-4374-9e64-879a82ba9927",
+            "nome": "Pessoa Automatizada Contribuinte de ICMS",
+            "nomeFantasia": "Pessoa Automatizada Contribuinte de ICMS",
+            "cpfCnpj": "87020090000160",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 132,
+            "idPessoaApi": "3c2e670a-46b8-4345-8b5b-2a10c084bfd9",
+            "nome": "pessoa Automatizada não contribuinte calcular Difal UF MG",
+            "cpfCnpj": "55942436070",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 20,
+            "idPessoaApi": "c66d8cca-2648-4b5f-9a2d-e66a8ff4b892",
+            "nome": "Pessoa Fora do estado ",
+            "cpfCnpj": "12761071700",
+            "status": 1,
+            "dataNascimento": "1987/01/01",
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 134,
+            "idPessoaApi": "35022449-dbf9-4c40-a5fc-7390fb3940fa",
+            "nome": "Pessoa Jurídica Automação Fora do estado",
+            "nomeFantasia": "Pessoa Jurídica Automação Fora do estado",
+            "cpfCnpj": "41805360000148",
+            "telefones": [
+                {
+                    "idTelefoneApi": "a1a30198-a343-4030-afbb-f14926c6050e",
+                    "numero": "(21) 9757-6684",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "email": {
+                "idEmailApi": "03492312-1ba1-40ab-94b5-a406e367fcf7",
+                "email": "cleberjr132@gmail.com"
+            },
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 173,
+            "idPessoaApi": "2c575ef7-8d9d-48a1-95ce-4921056f4a43",
+            "nome": "Pessoa sem IE",
+            "cpfCnpj": "16533629000137",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 3,
+            "idPessoaApi": "2cb12f13-5f49-4c6a-8a49-6f109c19218f",
+            "nome": "Prefeitura Municipal",
+            "cpfCnpj": "22867724791",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                },
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 122,
+            "idPessoaApi": "e9d6ef4a-183f-405e-bc20-272afd51ba0d",
+            "nome": "RANCHO ALEGRE COM. E REPR PROD. AGROPECUARIOS LTDA",
+            "nomeFantasia": "RANCHO ALEGRE - SANTO ANTONIO",
+            "cpfCnpj": "06098753000320",
+            "telefones": [
+                {
+                    "idTelefoneApi": "8e3b0e00-c7ff-48ca-b7c3-83fd2d726151",
+                    "numero": "(84) 3282-2012",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 17,
+            "idPessoaApi": "875254ce-1d9f-45d5-8858-c6cd9eeb1abc",
+            "nome": "Raul Alexandre Rocha",
+            "cpfCnpj": "49618722708",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 1,
+            "idPessoaApi": "971feb55-9190-4125-b6c5-cd48c0ab2d01",
+            "nome": "Ricardo Yuri Gomes",
+            "cpfCnpj": "86148627760",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                },
+                {
+                    "id": "88a8da4d-8570-4cd9-bab0-02321f007952",
+                    "tipoPadrao": 3,
+                    "descricao": "Sócio"
+                }
+            ]
+        },
+        {
+            "idPessoa": 167,
+            "idPessoaApi": "a2822d27-9dec-45d9-b930-14d265e6329d",
+            "nome": "ROLDGAS LTDA",
+            "nomeFantasia": "ROLDGAS LTDA",
+            "cpfCnpj": "41744787000183",
+            "telefones": [
+                {
+                    "idTelefoneApi": "3be52bfa-50e1-4412-a012-a372c377c08c",
+                    "numero": "553133862811",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        },
+        {
+            "idPessoa": 4,
+            "idPessoaApi": "5d50c2fd-8207-4cce-8b1a-eb766f924bba",
+            "nome": "Ryan Igor Heitor Dias",
+            "cpfCnpj": "08285995488",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 7,
+            "idPessoaApi": "5068cb4e-fa97-4477-849d-9f65a132eb4b",
+            "nome": "Thales Gustavo Castro",
+            "cpfCnpj": "29387432467",
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "44a6b266-4933-4377-a1b6-c9b00e3d427f",
+                    "tipoPadrao": 0,
+                    "descricao": "Cliente"
+                }
+            ]
+        },
+        {
+            "idPessoa": 125,
+            "idPessoaApi": "c74dc5f2-6908-46d7-b7d6-3b2b15125478",
+            "nome": "TRINCA MOTOS E ACESSORIOS LTDA",
+            "nomeFantasia": "TRINCA MOTOS - TERESOPOLIS",
+            "cpfCnpj": "32044703000701",
+            "telefones": [
+                {
+                    "idTelefoneApi": "219c3aa1-a88c-4930-a7c9-a182d56bcef9",
+                    "numero": "(21) 2643-5454",
+                    "tipo": 0,
+                    "principal": true
+                }
+            ],
+            "status": 1,
+            "tiposPessoa": [
+                {
+                    "id": "b98e3622-c255-4cab-b520-51e0aaf6410c",
+                    "tipoPadrao": 2,
+                    "descricao": "Fornecedor"
+                }
+            ]
+        }
+    ],
+    "totalElementos": 41,
+    "totalPaginas": 1,
+    "numeroDaPagina": 1,
+    "tamanhoDestaPagina": 41,
+    "tamanhoDePagina": 100,
+    "ultimaPagina": true,
+    "primeiraPagina": true,
+    "paginaVazia": false,
+    "ordenado": true
+}

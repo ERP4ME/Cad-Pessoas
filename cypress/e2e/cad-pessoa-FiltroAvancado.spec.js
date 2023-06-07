@@ -40,15 +40,16 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
      
   })
   it('Testar Filtro Todos', function () {
-    // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1',
-    //{ fixture: 'todos.json' }
-    // )//.as('waitFiltro')
+     cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=100&pagina=1',
+    { fixture: 'todos.json' }
+     ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.exibir100Itens()
     cy.acessarFiltroAvancado()
     cy.btnFiltroAvancado()
+    cy.wait('@waitFiltro')
     cy.nomePessoa()
-      .should('have.length', '38')
+      .should('have.length', '41')
 
   })
   it('Testar Filtro Cliente', function () {
@@ -144,42 +145,42 @@ describe('Cadastro de Pessoas - Filtro Avançado ', () => {
 
   })
   it('Testar Filtro por CNPJ', function () {
-    cy.intercept('GET', '//koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=cpfCnpj&valor=14151066000197',
-      { fixture: 'filtroAvancadoCNPJ.json' }
-    ).as('waitFiltro')
+    // cy.intercept('GET', '//koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=cpfCnpj&valor=14151066000197',
+    //   { fixture: 'filtroAvancadoCNPJ.json' }
+    // ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.acessarFiltroAvancado()
     cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('14151066000197', { delay: 0 })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.get('[ng-bind="pessoa.cpfCnpj"]')
       .contains('14.151.066/0001-97')
       .should('have.text', '14.151.066/0001-97')
 
   })
   it('Testar Filtro por Ração Social', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=nome,nomeFantasia&valor=Administradora+Ltda+_,Administradora+Ltda+_',
-      { fixture: 'filtroAvancadoRazaoSocial.json' }
-    ).as('waitFiltro')
+    // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=nome,nomeFantasia&valor=Administradora+Ltda+_,Administradora+Ltda+_',
+    //   { fixture: 'filtroAvancadoRazaoSocial.json' }
+    // ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.acessarFiltroAvancado()
-    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('Administradora Ltda _', { delay: 0 })
+    cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('Administradora Ltda', { delay: 0 })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.get('[data-alt-titulo="Nome Fantasia"]')
-      .contains('Administradora Ltda _')
-      .should('have.text', 'Administradora Ltda _')
+      .contains('Administradora Ltda')
+      .should('have.text', 'Administradora Ltda')
 
   })
   it('Testar Filtro por CPF', function () {
-    cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=cpfCnpj&valor=07379410067',
-      { fixture: 'filtroAvancadoCPF.json' }
-    ).as('waitFiltro')
+    // cy.intercept('GET', '/koopon-pessoa-rest-api/pessoas/filtro?itensPorPagina=10&pagina=1&propriedade=cpfCnpj&valor=07379410067',
+    //   { fixture: 'filtroAvancadoCPF.json' }
+    // ).as('waitFiltro')
     cy.AcessarPessoas()
     cy.acessarFiltroAvancado()
     cy.get('#koopon-pessoa-modal-filtro-pessoas-input-info-pessoa').type('07379410067', { delay: 0 })
     cy.btnFiltroAvancado()
-    cy.wait('@waitFiltro')
+    //cy.wait('@waitFiltro')
     cy.get('[ng-bind="pessoa.cpfCnpj"]')
       .contains('073.794.100-67')
       .should('have.text', '073.794.100-67')

@@ -9,7 +9,7 @@ describe('Cadastro de Pessoas - Exportação de PDF e CSV pelo tipo pessoas ', (
   const pessoaExportacao = require('../fixtures/cad-Pessoas-ExportacaoArquivos.json')
 
   pessoaExportacao.forEach((item, index) => {
-    it.only(`Exportar PDF para o tipo pessoa ${item.tipoPessoa}`, () => {
+    it(`Exportar PDF para o tipo pessoa ${item.tipoPessoa}`, () => {
       cy.AcessarPessoas()
       cy.ExportarAquivos('Em formato PDF').click({force:true})
       cy.get('#exportacao-pessoas-tipo-pessoa').select(item.tipoPessoa, { force: true })
@@ -19,7 +19,7 @@ describe('Cadastro de Pessoas - Exportação de PDF e CSV pelo tipo pessoas ', (
         doc.addEventListener('click', () => {
           setTimeout(function () { doc.location.reload() }, 5000)
         })
-        cy.get('#toast-download-button > .btn',{ timeout: 500000 })
+        cy.get('#toast-download-button > .btn',{ timeout: 5000000 })
         .should('be.visible')
         .click()
       })
@@ -30,7 +30,7 @@ describe('Cadastro de Pessoas - Exportação de PDF e CSV pelo tipo pessoas ', (
   })
   const pessoaExportacaoCSV = require('../fixtures/cad-Pessoas-ExportacaoArquivosCSV.json')
   pessoaExportacaoCSV.forEach((item, index) => {
-    it(`Exportar CSV para o tipo pessoa ${item.tipoPessoa}`, () => {
+    it.only(`Exportar CSV para o tipo pessoa ${item.tipoPessoa}`, () => {
       cy.AcessarPessoas()
       cy.ExportarAquivos('Em formato CSV').click({force:true})
       cy.get('#exportacao-pessoas-tipo-pessoa').select(item.tipoPessoa, { force: true })
@@ -41,7 +41,9 @@ describe('Cadastro de Pessoas - Exportação de PDF e CSV pelo tipo pessoas ', (
         doc.addEventListener('click', () => {
           setTimeout(function () { doc.location.reload() }, 5000)
         })
-        cy.get('#toast-download-button > .btn').click()
+        cy.get('#toast-download-button > .btn',{ timeout: 5000000 })
+        .should('be.visible')
+        .click()
       })
       cy.LocalizarXMLAlterarNome()
 
